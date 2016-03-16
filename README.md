@@ -4,7 +4,7 @@ This is a collection of helpful tips and tricks for VS Code that I've collected 
 
 ## Ignore files / folders
 
-Edit `settings.json` by adding the following:
+[See documentation for more details](http://code.visualstudio.com/docs/customization/userandworkspace#_default-settings). Edit `settings.json` by adding the following:
 
 ```json
 "files.exclude": {
