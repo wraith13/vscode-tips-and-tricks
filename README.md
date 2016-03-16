@@ -12,3 +12,5 @@ This is a collection of helpful tips and tricks for VS Code that I've collected 
 		"somefile": true
 }
 ```
+
+## Auto preview themes
