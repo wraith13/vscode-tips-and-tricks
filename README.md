@@ -8,7 +8,7 @@ Edit `settings.json` by adding the following:
 
 ```json
 "files.exclude": {
-		"somefolder/": true, // Removes "somefolder" from VS Code's file explorer
+		"somefolder/": true, 
 		"somefile": true
 }
 ```
