@@ -1,6 +1,6 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
-This is a collection of helpful tips and tricks for VS Code that I've collected while using the product. Most of these are contained in the documentation and I've provided a link when applicable. 
+This is a collection of helpful tips and tricks for VS Code. 
 
 ## Ignore files / folders
 
@@ -14,3 +14,5 @@ This is a collection of helpful tips and tricks for VS Code that I've collected 
 ```
 
 ## Auto preview themes
+
+![Auto Preview themes](/gifs/auto_preview.gif)
