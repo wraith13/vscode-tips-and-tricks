@@ -15,4 +15,4 @@ This is a collection of helpful tips and tricks for VS Code.
 
 ## Auto preview themes
 
-![Auto Preview themes](/gifs/auto_preview.gif)
+![Auto Preview themes](/media/preview_themes.gif)
