@@ -13,6 +13,6 @@ This is a collection of helpful tips and tricks for VS Code.
 }
 ```
 
-## Auto preview themes
+## Preview themes
 
-![Auto Preview themes](/media/preview_themes.gif)
+![Preview themes](/media/preview_themes.gif)
