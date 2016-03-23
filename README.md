@@ -13,6 +13,7 @@ This is a collection of helpful tips and tricks for VS Code.
 7. <a href="#readme-tips">Readme tips</a>
 8. <a href="#debugging">Debugging</a>
 9. <a href="#task-runner">Task runner</a>
+10. <a href="#snippets">Snippets</a>
 
 # Basics
 
@@ -326,6 +327,42 @@ typings install react --ambient --save
 
 `install` will create a typings folder. VS Code will reference the `.d.ts` files for intellisense. 
 
+## json validation
+
+Enabled by default for many files. Create your own schema and validation in `settings.json`
+
+```json
+"json.schemas": [
+    {
+        "fileMatch": [
+            "/bower.json"
+        ],
+        "url": "http://json.schemastore.org/bower"
+    }
+]
+``` 
+
+or for a schema defined in your workspace
+
+```json
+"json.schemas": [
+    {
+        "fileMatch": [
+            "/foo.json"
+        ],
+        "url": "./myschema.json"
+    }
+]
+``` 
+
+See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
+
+## Emmet syntax
+
+[Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).  
+
+![emmet syntax](emmet_syntax.gif)
+
 # Git Integration
 
 Excellent integration for entire Git workflow. 
@@ -434,3 +471,26 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 ## NPM tasks
 
 // TODO
+
+# Snippets
+
+## Create custom snippets
+
+`File -> Preferences -> User Snippets`, select the language, and create a shippet. 
+
+```json
+"create component": {
+    "prefix": "component",
+    "body": [
+        "class $1 extends React.Component {",
+        "",
+        "	render() {",
+        "		return ($2);",
+        " 	}",
+        "",
+        "}"
+    ]
+},
+```
+
+See more details in [documentation](http://code.visualstudio.com/docs/customization/userdefinedsnippets#_creating-your-own-snippets). 
