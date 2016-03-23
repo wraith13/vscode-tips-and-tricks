@@ -2,6 +2,10 @@
 
 This is a collection of helpful tips and tricks for VS Code. 
 
+# Table of Contents
+
+1. <a href="#basics">Basics</a>
+
 # Basics
 
 ## Open command palette
@@ -413,8 +417,14 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 
 ## Auto detect tasks
 
+// TODO
+
 ## Gulp tasks
 
-## Mocha
+// TODO
+
+## NPM tasks
+
+// TODO
 
 
