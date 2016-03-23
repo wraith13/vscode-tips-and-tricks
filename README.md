@@ -5,6 +5,14 @@ This is a collection of helpful tips and tricks for VS Code.
 # Table of Contents
 
 1. <a href="#basics">Basics</a>
+2. <a href="#customization">Customization</a>
+3. <a href="#file-and-folder-management">File and folder management</a>
+4. <a href="#editing-hacks">Editing hacks</a>
+5. <a href="#intellisense">Intellisense</a>
+6. <a href="#git-integration">Git integration</a>
+7. <a href="#readme-tips">Readme tips</a>
+8. <a href="#debugging">Debugging</a>
+9. <a href="#task-runner">Task runner</a>
 
 # Basics
 
@@ -49,7 +57,7 @@ Badges will appear in the bottom left of the status bar.
 
 ![change syntax](/media/change_syntax.gif)
 
-# Customizing
+# Customization
 
 Lots of things you can do here. Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
 
@@ -104,7 +112,7 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
 
 
-# File / folder management
+# File and folder management
 
 ## OS X layout
 
@@ -426,5 +434,3 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 ## NPM tasks
 
 // TODO
-
-
