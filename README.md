@@ -179,9 +179,23 @@ Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget.
 
 ## Mocha
 
-## Git Integration
+# Git Integration
 
-View file diffs
+Excellent integration for entire Git workflow. 
+
+## Diffs
+
+## Branches
+
+## Staging
+
+## Committing
+
+## See Git output
+
+Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy to see 
+what git commands are running. This is helpful when learning git or debugging a difficult 
+source control issue. 
 
 
 
