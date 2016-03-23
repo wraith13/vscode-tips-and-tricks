@@ -320,7 +320,9 @@ Excellent integration for entire Git workflow.
 
 ## Diffs
 
-Click Git icon ![git icon](/media/git_icon.png) then select the file to diff. 
+Click Git icon then select the file to diff. 
+
+![git icon](/media/git_icon.png)
 
 **Side by side**
 
