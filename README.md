@@ -6,14 +6,14 @@ This is a collection of helpful tips and tricks for VS Code.
 
 1. <a href="#basics">Basics</a>
 2. <a href="#customization">Customization</a>
-3. <a href="#extensions>Extensions</a>
-3. <a href="#file-and-folder-management">File and folder management</a>
-4. <a href="#editing-hacks">Editing hacks</a>
-5. <a href="#intellisense">Intellisense</a>
-6. <a href="#git-integration">Git integration</a>
-7. <a href="#debugging">Debugging</a>
-8. <a href="#task-runner">Task runner</a>
-9. <a href="#snippets">Snippets</a>
+3. <a href="#extensions">Extensions</a>
+4. <a href="#file-and-folder-management">File and folder management</a>
+5. <a href="#editing-hacks">Editing hacks</a>
+6. <a href="#intellisense">Intellisense</a>
+7. <a href="#git-integration">Git integration</a>
+8. <a href="#debugging">Debugging</a>
+9. <a href="#task-runner">Task runner</a>
+10. <a href="#snippets">Snippets</a>
 
 # Basics
 
@@ -320,11 +320,28 @@ You can view available methods, parameter hints, short documentation, etc.
 
 ## Peek
 
-// TODO 
+Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu. 
+
+![peek](/media/peek.gif)
 
 ## Go to definition
 
-// TODO 
+Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu. 
+
+![go to definition](/media/goto_definition.gif)
+
+## Find all references
+
+Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu. 
+
+![find all references](/media/find_all_references.gif)
+
+## Rename symbol
+
+Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu. 
+
+![rename symbol](/media/rename_symbol.gif)
+
 
 ## jsconfig.json
 
@@ -484,15 +501,15 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 
 ## Resolve merge conflicts
 
-// TODO
+During a merge click the git icon and make changes in the diff view. 
+
+![git icon](/media/git_icon.png)
 
 ## Setup VS Code as default merge tool
 
-// TODO
-
-
-
-## Styling README pages
+```bash
+git config --global merge.tool code
+```
 
 # Debugging
 
