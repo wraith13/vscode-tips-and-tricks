@@ -17,6 +17,10 @@ This is a collection of helpful tips and tricks for VS Code.
 
 # Basics
 
+## Command line arguments
+
+// TODO - language
+
 ## Open command palette
 
 Easy access to all commands available in VS Code. 
@@ -361,7 +365,7 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 [Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).  
 
-![emmet syntax](emmet_syntax.gif)
+![emmet syntax](/media/emmet_syntax.gif)
 
 # Git Integration
 
