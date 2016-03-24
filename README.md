@@ -6,20 +6,38 @@ This is a collection of helpful tips and tricks for VS Code.
 
 1. <a href="#basics">Basics</a>
 2. <a href="#customization">Customization</a>
+3. <a href="#extensions>Extensions</a>
 3. <a href="#file-and-folder-management">File and folder management</a>
 4. <a href="#editing-hacks">Editing hacks</a>
 5. <a href="#intellisense">Intellisense</a>
 6. <a href="#git-integration">Git integration</a>
-7. <a href="#readme-tips">Readme tips</a>
-8. <a href="#debugging">Debugging</a>
-9. <a href="#task-runner">Task runner</a>
-10. <a href="#snippets">Snippets</a>
+7. <a href="#debugging">Debugging</a>
+8. <a href="#task-runner">Task runner</a>
+9. <a href="#snippets">Snippets</a>
 
 # Basics
 
 ## Command line arguments
 
-// TODO - language
+Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
+to execute "Shell Command: Install 'code' command in PATH". 
+
+![shell command](/media/setup_shell-command.png)
+
+
+```bash
+# create a new window
+code -n
+
+# change the language
+code --locale=es
+
+# open diff editor
+code --diff <file1> <file2>
+
+# see help options
+code --help
+```
 
 ## Open command palette
 
@@ -116,6 +134,33 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
 
+# Extensions
+
+## Install extensions
+
+<kbd>cmd+shift+p</kbd> and type "ext install". Select the extension you want and hit <kbd>enter</kbd>
+
+![install extension](/media/install_extension.gif)
+
+## Find extensions
+
+1. The official VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
+2. Community curated extensions like [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+3. Search in product with <kbd>cmd+shift+p</kbd> and type "ext install"
+4. View extension recommendations (see below)
+
+## Extension recommendations
+
+<kbd>cmd+shift+p</kbd>, type "ext", then select "Show Extension Recommendations"
+
+![extension recommendations](/media/extension_recommendations.gif)
+
+## Uninstall an extension
+
+<kbd>cmd+shift+p</kbd>, type "ext", then select "Show Installed Extensions". 
+Click the "x" on the bottom right of the extension card. 
+
+![uninstall extension](/media/uninstall_extension.gif)
 
 # File and folder management
 
@@ -259,6 +304,12 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
+## Toggle README preview
+
+In a markdown file use <kbd>shift+cmd+v</kbd> to `Toggle Preview`
+
+![toggle readme preview](/media/toggle_preview.gif)
+
 # Intellisense
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. This might be the most important tip of them all. 
@@ -385,6 +436,7 @@ Default is side by side diff.
 
 **Inline view**
 
+
 Toggle inline view by clicking more button in the top right. 
 
 ![more git button](/media/more_button.png)
@@ -438,17 +490,7 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 
 // TODO
 
-## Git output window
 
-// TODO
- 
-# README tips
-
-## Toggle preview
-
-<kbd>shift+cmd+v</kbd> to `Toggle Preview`
-
-![toggle readme preview](/media/toggle_preview.gif)
 
 ## Styling README pages
 
