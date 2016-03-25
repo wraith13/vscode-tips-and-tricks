@@ -16,32 +16,6 @@
 
 # Basics
 
-## Command line arguments
-
-Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
-to execute "Shell Command: Install 'code' command in PATH". 
-
-![shell command](/media/setup_shell-command.png)
-
-
-```bash
-# create a new window
-code -n
-
-# change the language
-code --locale=es
-
-# open diff editor
-code --diff <file1> <file2>
-
-# see help options
-code --help
-```
-
-## .vscode folder
-
-Workspace specific files are in `.vscode`.
-
 ## Open command palette
 
 Easy access to all commands available in VS Code. 
@@ -67,6 +41,32 @@ Quickly open files and run commands (see below).
 useful with the extension marketplace. 
 
 ![marketplace copy and paste](/media/mp_copy_paste.png)
+
+## Command line arguments
+
+Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
+to execute "Shell Command: Install 'code' command in PATH". 
+
+![shell command](/media/setup_shell-command.png)
+
+
+```bash
+# create a new window
+code -n
+
+# change the language
+code --locale=es
+
+# open diff editor
+code --diff <file1> <file2>
+
+# see help options
+code --help
+```
+
+## .vscode folder
+
+Workspace specific files are in `.vscode`.
 
 ## Status bar decorations
 
