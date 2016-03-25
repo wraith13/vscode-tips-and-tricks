@@ -39,6 +39,10 @@ code --diff <file1> <file2>
 code --help
 ```
 
+## .vscode folder
+
+Workspace specific files are in `.vscode`.
+
 ## Open command palette
 
 Easy access to all commands available in VS Code. 
@@ -519,11 +523,24 @@ git config --global merge.tool code
 
 ## Configure debugger
 
-// TODO
+<kdb>f1</kdb> and select "Debug: Open Launch.json", select the environment. 
+This will generate a `launch.json` file. Works out of the box as expected for
+Node and other environments. May need some additional configuration for other languages.
+See [documentation](http://code.visualstudio.com/docs/editor/debugging) for more details. 
 
-## Data inspection in the console
+![configure debugging](/media/configure_debug.gif)
 
-// TODO
+## Breakpoints and stepping through
+
+Place breakpoints next to the line number. Navigate forward with the debug widget. 
+
+![debug](/media/node_debug.gif)
+
+## Data inspection
+
+Inspect variables in the debug panels and in the console. 
+
+![data inspection](/media/debug_data_inspection.gif)
 
 # Task Runner
 
