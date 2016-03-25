@@ -184,7 +184,7 @@ Using mission control, put a terminal window on the same screen as VS Code. Wala
 Open `settings.json` with <kbd>cmd+,</kbd>
 
 ```json
-"files.autoSave": "on"
+"files.autoSave": "afterDelay"
 ```
 
 ## Toggle sidebar
