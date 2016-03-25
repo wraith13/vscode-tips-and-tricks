@@ -8,10 +8,10 @@
 4. <a href="#file-and-folder-management">File and folder management</a>
 5. <a href="#editing-hacks">Editing hacks</a>
 6. <a href="#intellisense">Intellisense</a>
-7. <a href="#git-integration">Git integration</a>
-8. <a href="#debugging">Debugging</a>
-9. <a href="#task-runner">Task runner</a>
-10. <a href="#snippets">Snippets</a>
+7. <a href="#snippets">Snippets</a>
+8. <a href="#git-integration">Git integration</a>
+9. <a href="#debugging">Debugging</a>
+10. <a href="#task-runner">Task runner</a>
 11. <a href=#other-resources>Other Resources</a>
 
 # Basics
@@ -478,6 +478,29 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 ![emmet syntax](/media/emmet_syntax.gif)
 
+# Snippets
+
+## Create custom snippets
+
+`File -> Preferences -> User Snippets`, select the language, and create a shippet. 
+
+```json
+"create component": {
+    "prefix": "component",
+    "body": [
+        "class $1 extends React.Component {",
+        "",
+        "	render() {",
+        "		return ($2);",
+        " 	}",
+        "",
+        "}"
+    ]
+},
+```
+
+See more details in [documentation](http://code.visualstudio.com/docs/customization/userdefinedsnippets#_creating-your-own-snippets). 
+
 # Git Integration
 
 Excellent integration for entire Git workflow. 
@@ -617,29 +640,10 @@ task by running the command "Terminate Running Task"
 
 ![task runner](/media/task_runner.gif)
 
-# Snippets
 
-## Create custom snippets
-
-`File -> Preferences -> User Snippets`, select the language, and create a shippet. 
-
-```json
-"create component": {
-    "prefix": "component",
-    "body": [
-        "class $1 extends React.Component {",
-        "",
-        "	render() {",
-        "		return ($2);",
-        " 	}",
-        "",
-        "}"
-    ]
-},
-```
-
-See more details in [documentation](http://code.visualstudio.com/docs/customization/userdefinedsnippets#_creating-your-own-snippets). 
 
 ## Other Resources
 
+* [vscode official docs](https://code.visualstudio.com/docs)
+* [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [vscode-tips](https://github.com/tstringer/vscode-tips)
