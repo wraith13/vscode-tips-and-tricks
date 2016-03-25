@@ -235,7 +235,7 @@ Setup language associations for files that aren't detected accurately (i.e. many
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching).
 
-<kbd>up+cmd+\<kbd>
+<kbd>up+cmd+\\<kbd>
 
 ![bracket matching](/media/bracket_matching.gif)
 
