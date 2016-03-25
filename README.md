@@ -43,7 +43,7 @@ code --help
 
 Easy access to all commands available in VS Code. 
 
-<kbd>cmd+shift+p</kbd>
+<kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
 
 ![command palette](/media/command_p.png)
 
