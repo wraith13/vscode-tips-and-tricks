@@ -47,6 +47,11 @@ Easy access to all commands available in VS Code.
 
 ![command palette](/media/command_p.png)
 
+## Learning keybindings
+
+All commands are in the command palette. If you forget what the key binding is
+use the command palette to help you out. 
+
 ## Quick open
 
 Quickly open files and run commands (see below). 
@@ -524,10 +529,6 @@ git config --global merge.tool code
 # Task Runner
 
 ## Auto detect tasks
-
-// TODO
-
-## Gulp tasks
 
 // TODO
 
