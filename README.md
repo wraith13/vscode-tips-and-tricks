@@ -241,7 +241,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Multi cursor selection
 
-<kbd>opMore in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
+<kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>. More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
 ![multi cursor](/media/multi_cursor.gif)
 
