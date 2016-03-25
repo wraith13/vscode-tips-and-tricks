@@ -373,15 +373,21 @@ Use ES6 by configuring jsconfig.json in the root of your javascript source files
 }
 ```
 
-## .eslintrc
+## .eslintrc.json
 
 Install [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). Configure 
 your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring). 
 
-Here is configuration to use babel-eslint and es6. 
+Here is configuration to use es6. 
 
 ```json
 {
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module",
@@ -390,9 +396,33 @@ Here is configuration to use babel-eslint and es6.
             "classes": true,
             "defaultParams": true
         }
+    },
+    "rules": {
+        "no-const-assign": 1,
+        "no-extra-semi": 0,
+        "semi": 0,
+        "no-fallthrough": 0,
+        "no-empty": 0,
+        "no-mixed-spaces-and-tabs": 0,
+        "no-redeclare": 0,
+        "no-this-before-super": 1,
+        "no-undef": 1,
+        "no-unreachable": 1,
+        "no-use-before-define": 0,
+        "constructor-super": 1,
+        "curly": 0,
+        "eqeqeq": 0,
+        "func-names": 0,
+        "valid-typeof": 1
     }
 }
 ```
+
+## package.json
+
+See intellisense for your package.json file. 
+
+![package json intellisense](/media/package_json_intellisense.gif)
 
 ## Install typings
 
