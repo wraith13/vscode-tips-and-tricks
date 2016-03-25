@@ -380,8 +380,7 @@ Here is configuration to use babel-eslint and es6.
             "classes": true,
             "defaultParams": true
         }
-    },
-    "parser": "babel-eslint"
+    }
 }
 ```
 
@@ -530,11 +529,41 @@ git config --global merge.tool code
 
 ## Auto detect tasks
 
-// TODO
+<kbd>f1</kbd>, type "Configure Task", then select "Configure Task Runner". 
+This will generate a task.json file with content like the following. See 
+[documentation](http://go.microsoft.com/fwlink/?LinkId=733558) for more details.
 
-## NPM tasks
+```json
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "0.1.0",
+	"command": "npm",
+	"isShellCommand": true,
+	"showOutput": "always",
+	"suppressTaskName": true,
+	"tasks": [
+		{
+			"taskName": "install",
+			"args": ["install"]
+		},
+		{
+			"taskName": "build",
+			"args": ["run", "build"]
+		}
+	]
+}
+```
 
-// TODO
+There are occasionally issues with auto generation. Check out the documentation
+for getting things to work properly. 
+
+## Run tasks from command palette
+
+<kbd>f1</kdb>, run the command "Run Task", and select the task you want to run. Terminate the running
+task by running the command "Terminate Running Task"
+
+![task runner](/media/task_runner.gif)
 
 # Snippets
 
