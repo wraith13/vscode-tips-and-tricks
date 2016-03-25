@@ -1,7 +1,5 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
-This is a collection of helpful tips and tricks for VS Code. 
-
 # Table of Contents
 
 1. <a href="#basics">Basics</a>
@@ -14,6 +12,7 @@ This is a collection of helpful tips and tricks for VS Code.
 8. <a href="#debugging">Debugging</a>
 9. <a href="#task-runner">Task runner</a>
 10. <a href="#snippets">Snippets</a>
+11. <a href=#other-resources>Other Resources</a>
 
 # Basics
 
@@ -604,3 +603,7 @@ task by running the command "Terminate Running Task"
 ```
 
 See more details in [documentation](http://code.visualstudio.com/docs/customization/userdefinedsnippets#_creating-your-own-snippets). 
+
+## Other Resources
+
+* [vscode-tips](https://github.com/tstringer/vscode-tips)
