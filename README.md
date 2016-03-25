@@ -24,10 +24,9 @@ Easy access to all commands available in VS Code.
 
 ![command palette](/media/command_p.png)
 
-## Learning keybindings
+## Reference keybindings
 
-All commands are in the command palette. If you forget what the key binding is
-use the command palette to help you out. 
+All of the commands are in the command palette with the associated key binding (if it exists). If you forget what the key binding is use the command palette to help you out. 
 
 ## Quick open
 
