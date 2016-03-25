@@ -195,7 +195,7 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ## Side by side editing
 
-<kbd>cmd+\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
+<kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
 
 ![split editors](/media/split_editor.gif)
 
