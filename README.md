@@ -241,7 +241,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Multi cursor selection
 
-More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
+<kbd>opMore in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
 ![multi cursor](/media/multi_cursor.gif)
 
@@ -250,6 +250,12 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 Add more cursors to current selection.
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
+
+## Copy line
+
+<kbd>opt+shift+up</kbd> or <kbd>opt+shit+down</kbd>
+
+![copy line down](/media/copy_line_down.gif)
 
 ## Shrink / expand selection
 
