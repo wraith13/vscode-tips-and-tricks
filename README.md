@@ -81,7 +81,7 @@ Badges will appear in the bottom left of the status bar.
 
 ![extension actions](/media/extension_actions.png)
 
-**Change syntax**
+**Change language mode**
 
 <kbd>cmd+k m</kbd>
 
