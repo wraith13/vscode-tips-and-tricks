@@ -141,6 +141,20 @@ And many, many [others](http://code.visualstudio.com/docs/customization/userandw
 
 # Extensions
 
+## Contribution points
+
+[Documentation on contribution points](http://code.visualstudio.com/docs/extensionAPI/extension-points).
+
+* configuration
+* commands
+* keybindings
+* languages
+* debuggers
+* grammars
+* themes
+* snippets
+* jsonValidation
+
 ## Install extensions
 
 <kbd>cmd+shift+p</kbd> and type "ext install". Select the extension you want and hit <kbd>enter</kbd>
