@@ -91,32 +91,6 @@ Badges will appear in the bottom left of the status bar.
 
 Lots of things you can do here. Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
 
-## Ignore files / folders
-
-[See documentation for more details](http://code.visualstudio.com/docs/customization/userandworkspace#_default-settings). Edit `settings.json` by adding the following:
-
-Removes these files / folders from your editor window. 
-
-```json
-"files.exclude": {
-		"somefolder/": true, 
-		"somefile": true
-}
-```
-
-Remove these files / folders from search results. 
-
-```json
-"search.exclude": {
-    "someFolder/": true,
-    "somefile": true
-}
-```
-
-## Preview themes
-
-![Preview themes](/media/preview_themes.gif)
-
 ## Customize editor
 
 Open `settings.json` with <kbd>cmd+,</kbd>
@@ -139,7 +113,31 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 "editor.insertSpaces": true
 ```
 
+*Ignore files / folders*
+
+Removes these files / folders from your editor window. 
+
+```json
+"files.exclude": {
+		"somefolder/": true, 
+		"somefile": true
+}
+```
+
+Remove these files / folders from search results. 
+
+```json
+"search.exclude": {
+    "someFolder/": true,
+    "somefile": true
+}
+```
+
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
+
+## Preview themes
+
+![Preview themes](/media/preview_themes.gif)
 
 # Extensions
 
