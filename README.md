@@ -65,7 +65,7 @@ code --help
 
 ## .vscode folder
 
-Workspace specific files are in `.vscode`.
+Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
 
 ## Status bar decorations
 
