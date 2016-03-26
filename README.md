@@ -155,18 +155,18 @@ And many, many [others](http://code.visualstudio.com/docs/customization/userandw
 * snippets
 * jsonValidation
 
+## Find extensions
+
+1. The official VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
+2. Search in product (see below)
+3. View extension recommendations (see below)
+4. Community curated extensions like [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+
 ## Install extensions
 
 <kbd>cmd+shift+p</kbd> and type "ext install". Select the extension you want and hit <kbd>enter</kbd>
 
 ![install extension](/media/install_extension.gif)
-
-## Find extensions
-
-1. The official VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
-2. Community curated extensions like [awesome-vscode](https://github.com/viatsko/awesome-vscode).
-3. Search in product with <kbd>cmd+shift+p</kbd> and type "ext install"
-4. View extension recommendations (see below)
 
 ## Extension recommendations
 
