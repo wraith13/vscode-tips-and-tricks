@@ -139,6 +139,36 @@ And many, many [others](http://code.visualstudio.com/docs/customization/userandw
 
 ![Preview themes](/media/preview_themes.gif)
 
+## json validation
+
+Enabled by default for many files. Create your own schema and validation in `settings.json`
+
+```json
+"json.schemas": [
+    {
+        "fileMatch": [
+            "/bower.json"
+        ],
+        "url": "http://json.schemastore.org/bower"
+    }
+]
+``` 
+
+or for a schema defined in your workspace
+
+```json
+"json.schemas": [
+    {
+        "fileMatch": [
+            "/foo.json"
+        ],
+        "url": "./myschema.json"
+    }
+]
+``` 
+
+See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
+
 # Extensions
 
 ## Contribution points
@@ -452,36 +482,6 @@ typings install react --ambient --save
 ```
 
 `install` will create a typings folder. VS Code will reference the `.d.ts` files for intellisense. 
-
-## json validation
-
-Enabled by default for many files. Create your own schema and validation in `settings.json`
-
-```json
-"json.schemas": [
-    {
-        "fileMatch": [
-            "/bower.json"
-        ],
-        "url": "http://json.schemastore.org/bower"
-    }
-]
-``` 
-
-or for a schema defined in your workspace
-
-```json
-"json.schemas": [
-    {
-        "fileMatch": [
-            "/foo.json"
-        ],
-        "url": "./myschema.json"
-    }
-]
-``` 
-
-See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
 
 ## Emmet syntax
 
