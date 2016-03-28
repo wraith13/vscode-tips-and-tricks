@@ -20,7 +20,9 @@
 
 Easy access to all commands available in VS Code. 
 
-<kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
+> Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+p></kbd> or <kbd>f1</kbd>
 
 ![command palette](/media/command_p.png)
 
@@ -32,7 +34,9 @@ All of the commands are in the command palette with the associated key binding (
 
 Quickly open files and run commands (see below). 
 
-<kbd>cmd+p</kbd>
+> Mac: <kbd>cmd+p</kbd>
+
+> Windows / Linux: <kbd>ctrl+p</kbd>
 
 ## Copy and paste commands into quick open
 
@@ -71,7 +75,13 @@ Workspace specific files are in `.vscode`. For example, `tasks.json` for the Tas
 
 **Errors and Warnings**
 
-<kbd>shift+cmd+m</kbd> quickly jump to errors and warnings in the project. Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+> Mac: <kbd>shift+cmd+m</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+m</kbd>
+
+Quickly jump to errors and warnings in the project. 
+
+Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![status errors and warnings](/media/status_errors_warnings.png)
 
@@ -83,7 +93,9 @@ Badges will appear in the bottom left of the status bar.
 
 **Change language mode**
 
-<kbd>cmd+k m</kbd>
+> Mac: <kbd>cmd+k m</kbd>
+
+> Windows / Linux: <kbd>ctrl+k m</kbd>
 
 ![change syntax](/media/change_syntax.gif)
 
@@ -167,6 +179,26 @@ or for a schema defined in your workspace
 ]
 ``` 
 
+or a custom schema
+
+```json
+"json.schemas": [
+    {
+        "fileMatch": [
+            "/.myconfig"
+        ],
+        "schema": {
+            "type": "object",
+            "properties": {
+                "name" : {
+                    "type": "string",
+                    "description": "The name of the entry"
+                }
+            }
+        }
+    },
+```
+
 See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
 
 # Extensions
@@ -194,19 +226,31 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 ## Install extensions
 
-<kbd>cmd+shift+p</kbd> and type "ext install". Select the extension you want and hit <kbd>enter</kbd>
+> Mac: <kbd>cmd+shift+p</kbd> 
+
+> Windows / Linux: <kbd>ctrl+shift+p</kbd>
+
+then type "ext install". Select the extension you want and hit <kbd>enter</kbd>
 
 ![install extension](/media/install_extension.gif)
 
 ## Extension recommendations
 
-<kbd>cmd+shift+p</kbd>, type "ext", then select "Show Extension Recommendations"
+> Mac: <kbd>cmd+shift+p</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+p</kbd>
+
+then type "ext", then select "Show Extension Recommendations"
 
 ![extension recommendations](/media/extension_recommendations.gif)
 
 ## Uninstall an extension
 
-<kbd>cmd+shift+p</kbd>, type "ext", then select "Show Installed Extensions". 
+> Mac: <kbd>cmd+shift+p</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+p</kbd>
+
+then type "ext", then select "Show Installed Extensions". 
 Click the "x" on the bottom right of the extension card. 
 
 ![uninstall extension](/media/uninstall_extension.gif)
@@ -229,7 +273,9 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ## Toggle sidebar
 
-<kbd>cmd+B</kbd>
+> Mac: <kbd>cmd+b</kbd>
+
+> Windows / Linux: <kbd>ctrl+b</kbd>
 
 ![toggle side bar](/media/toggle_side_bar.gif)
 
