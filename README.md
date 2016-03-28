@@ -38,6 +38,8 @@ Quickly open files and run commands (see below).
 
 > Windows / Linux: <kbd>ctrl+p</kbd>
 
+Type "?" to view help suggestions. 
+
 ## Copy and paste commands into quick open
 
 <kbd>cmd+p</kbd> then paste the command you want to run. This is especially
