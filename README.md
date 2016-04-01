@@ -22,7 +22,7 @@ Easy access to all commands available in VS Code.
 
 > Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+p></kbd> or <kbd>f1</kbd>
+> Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
 
 ![command palette](/media/command_p.png)
 
