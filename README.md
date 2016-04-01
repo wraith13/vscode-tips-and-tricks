@@ -341,7 +341,7 @@ Add more cursors to current selection.
 
 ## Copy line
 
-<kbd>opt+shift+up</kbd> or <kbd>opt+shit+down</kbd>
+<kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
