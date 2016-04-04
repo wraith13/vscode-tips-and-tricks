@@ -14,6 +14,8 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href=#other-resources>Other Resources</a>
 
+> The key bindings below may or may not be accurate with the latest build. Check on the Default Keyboard shortcuts file. 
+
 # Basics
 
 ## Open command palette
@@ -107,7 +109,11 @@ Lots of things you can do here. Check out the full [documentation](http://code.v
 
 ## Customize editor
 
-Open `settings.json` with <kbd>cmd+,</kbd>
+Open `settings.json` 
+
+> Mac: <kbd>cmd+,</kbd>
+
+> Windows / Linxu: File -> Preferences -> User Settings
 
 *Change the font size*
 
@@ -283,27 +289,43 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ## Side by side editing
 
-<kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
+> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
+
+> Windows / Linux: <kbd>ctrl+\\</kbd>
 
 ![split editors](/media/split_editor.gif)
 
 ## Switch between editors
 
-<kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+> Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+
+> Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
 
 ![navigate editors](/media/navigate_editors.gif)
 
 ## History
 
 Navigate entire history with <kbd>ctrl+tab</kbd>
-Navigate back with <kbd>ctrl+-</kdbd>.
-Navigate forward with <kbd>ctrl+shift+up</kbd>
+
+Navigate back.
+
+> Mac: <kbd>ctrl+-</kdbd>
+
+> Windows / Linux: <kbd>alt+left</kbd>
+
+Navigate Forward.
+
+> Mac: <kbd>ctrl+shift+up</kbd>
+
+> Windows / Linux: <kbd>alt+right</kbd>
 
 ![navigate history](/media/navigate_history.gif)
 
 ## Navigate to a file
 
-<kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+> Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+
+> Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
 
 ![navigate to file](/media/navigate_to_file.gif)
 
@@ -323,13 +345,19 @@ Setup language associations for files that aren't detected accurately (i.e. many
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching).
 
-<kbd>up+cmd+\\<kbd>
+> Mac: <kbd>up+cmd+\\<kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+\\</kbd>
 
 ![bracket matching](/media/bracket_matching.gif)
 
 ## Multi cursor selection
 
-<kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>. More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
+More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor).
+
+> Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
+
+> Windows / Linux: <kbd></kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
@@ -341,7 +369,9 @@ Add more cursors to current selection.
 
 ## Copy line
 
-<kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
+
+> Windows / Linux: <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
@@ -349,67 +379,89 @@ Add more cursors to current selection.
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
-<kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
+> Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
+
+> Windows / Linux: <kbd>shift+alt+left</kbd> or <kbd>shift+alt+right</kbd>
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
 ## Find by symbol
 
-<kbd>cmd+up+o</kbd>
+> Mac: <kbd>cmd+shift+o</kbd>
+
+> Windows: <kbd>ctrl+shift+o</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
 ## Navigate to a specific line
 
-<kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
+> Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
+
+> Windows / Linux: <kbd>ctrl+g</kbd>
 
 ![navigate to line](/media/navigate_to_line.gif)
 
 ## Undo cursor position
 
-<kbd>cmd+u</kbd>
+> Mac: <kbd>cmd+u</kbd>
+
+> Windows / Linux: <kbd>ctrl+u</kbd>
 
 ![undo cursor position](/media/undo_cursor_position.gif)
 
 ## Move line up and down
 
-<kbd>opt+up</kbd> or <kbd>opt+down</kbd>
+> Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
+
+> Windows / Linux: <kbd>alt+up</kbd> or <kbd>alt+down</kbd>
 
 ![move line up and down](/media/move_line.gif)
 
 ## Trim trailing whitespace
 
-<kbd>shift+up+x</kbd>
+> Mac: <kbd>shift+up+x</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+x</kbd>
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
 ## Code formatting
 
-<kbd>shift+alt+f</kbd>
+> Mac / Windows / Linux: <kbd>shift+alt+f</kbd>
 
 ![code formatting](/media/code_formatting.gif)
 
 ## Code folding
 
-<kbd>shift+cmd+[</kbd> and <kbd>shift+cmd+]</kbd>
+> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
 
 ![code folding](/media/code_folding.gif)
 
 ## Select current line
 
-<kbd>cmd+i</kbd>
+> Mac: <kbd>cmd+i</kbd>
+
+> Windows / Linux: <kbd>ctrl+i</kbd>
 
 ![select current line](/media/select_current_line.gif)
 
 ## Navigate to beginning and end of file
 
-<kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
+> Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
+
+> Windows / Linux: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
 ## Toggle README preview
 
-In a markdown file use <kbd>shift+cmd+v</kbd> to `Toggle Preview`
+In a markdown file use 
+
+> Mac: <kbd>shift+cmd+v</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+v</kbd>
 
 ![toggle readme preview](/media/toggle_preview.gif)
 
@@ -616,7 +668,11 @@ Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy 
 what git commands are running. This is helpful when learning git or debugging a difficult 
 source control issue. 
 
-<kbd>shift+cmd+u</kbd> to run `toggleOutput`. Select Git in the dropdown.
+> Mac: <kbd>shift+cmd+u</kbd> 
+
+> Windows / Linux: <kbd>ctrl+shift+u</kbd>
+
+to run `toggleOutput`. Select Git in the dropdown.
 
 ## Gutter indicators
 
@@ -698,7 +754,6 @@ for getting things to work properly.
 task by running the command "Terminate Running Task"
 
 ![task runner](/media/task_runner.gif)
-
 
 
 ## Other Resources
