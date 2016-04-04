@@ -12,7 +12,7 @@
 8. <a href="#git-integration">Git integration</a>
 9. <a href="#debugging">Debugging</a>
 10. <a href="#task-runner">Task runner</a>
-11. <a href=#other-resources>Other Resources</a>
+11. <a href="#other-resources">Other Resources</a>
 
 > The key bindings below may or may not be accurate with the latest build. Check on the Default Keyboard shortcuts file. 
 
