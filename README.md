@@ -49,6 +49,8 @@ useful with the extension marketplace.
 
 ![marketplace copy and paste](/media/mp_copy_paste.png)
 
+![marketplace copy and paste animation](/media/copy_paste_mp.gif)
+
 ## Command line arguments
 
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
