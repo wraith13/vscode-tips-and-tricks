@@ -269,7 +269,7 @@ Click the "x" on the bottom right of the extension card.
 
 ## OS X layout
 
-Using mission control, put a terminal window on the same screen as VS Code. Wala! You know have an integrated terminal. 
+Using mission control, put a terminal window on the same screen as VS Code. Wala! You now have an integrated terminal. 
 
 ![OS X layout](/media/osx_layout.png)
 
