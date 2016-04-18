@@ -359,7 +359,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
 
-> Windows / Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
+> Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
+
+> Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
