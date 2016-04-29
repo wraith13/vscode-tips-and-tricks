@@ -53,7 +53,11 @@ useful with the extension marketplace.
 
 ## Command line arguments
 
-> Linux: Not avaliable
+> Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux). 
+
+> Windows: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_windows).
+
+> Mac: see below. 
 
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
 to execute "Shell Command: Install 'code' command in PATH". 
