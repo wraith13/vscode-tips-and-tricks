@@ -377,7 +377,7 @@ Add more cursors to current selection.
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
-> Windows / Linux(#5363): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
