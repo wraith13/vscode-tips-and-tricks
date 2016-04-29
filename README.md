@@ -53,6 +53,8 @@ useful with the extension marketplace.
 
 ## Command line arguments
 
+> Linux: Not avaliable
+
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
 to execute "Shell Command: Install 'code' command in PATH". 
 
@@ -375,7 +377,7 @@ Add more cursors to current selection.
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
-> Windows / Linux: <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows / Linux(#5363): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
@@ -393,7 +395,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
-> Windows: <kbd>ctrl+shift+o</kbd>
+> Windows / Linux: <kbd>ctrl+shift+o</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
@@ -457,7 +459,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
 
-> Windows / Linux: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+> Windows: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+
+> Linux: <kbd>ctrl+home</kbd> and <kbd>ctrl+end</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
