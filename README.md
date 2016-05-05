@@ -607,7 +607,7 @@ typings install react --ambient --save
 
 ## Create custom snippets
 
-`File -> Preferences -> User Snippets`, select the language, and create a shippet. 
+`File -> Preferences -> User Snippets`, select the language, and create a snippet. 
 
 ```json
 "create component": {
