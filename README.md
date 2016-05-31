@@ -319,6 +319,10 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+e</kbd>
 
+## Close the currently opened folder
+
+> Linux: <kbd>ctrl+k f</kbd>
+
 ## History
 
 Navigate entire history with <kbd>ctrl+tab</kbd>
