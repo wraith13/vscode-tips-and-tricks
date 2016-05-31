@@ -121,7 +121,7 @@ Open `settings.json`
 
 > Mac: <kbd>cmd+,</kbd>
 
-> Windows / Linxu: File -> Preferences -> User Settings
+> Windows / Linux: File -> Preferences -> User Settings
 
 *Change the font size*
 
