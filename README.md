@@ -301,6 +301,8 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
+> Linux: <kbd>ctrl+2</kbd>
+
 ![split editors](/media/split_editor.gif)
 
 ## Switch between editors
