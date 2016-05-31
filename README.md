@@ -311,6 +311,12 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ![navigate editors](/media/navigate_editors.gif)
 
+## Move to Explorer window
+
+> Mac: <kbd>cmd+shift+e</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+e</kbd>
+
 ## History
 
 Navigate entire history with <kbd>ctrl+tab</kbd>
