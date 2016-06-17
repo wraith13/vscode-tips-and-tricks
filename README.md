@@ -491,6 +491,13 @@ In a markdown file use
 
 ![toggle readme preview](/media/toggle_preview.gif)
 
+## Side by Side Markdown Edit and Preview
+
+In a markdown file use
+
+> Linux: <kbd>ctrl+k v</kbd>
+
+
 # Intellisense
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. This might be the most important tip of them all. 
