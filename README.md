@@ -793,4 +793,4 @@ task by running the command "Terminate Running Task"
 
 * [vscode official docs](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
-* [vscode-tips](https://github.com/tstringer/vscode-tips)
+* [awesome vscode](https://github.com/viatsko/awesome-vscode)
