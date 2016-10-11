@@ -709,7 +709,7 @@ to run `toggleOutput`. Select Git in the dropdown.
 
 ## Gutter indicators
 
-View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_gutter-indicators) for more details. 
+View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details. 
 
 ![git gutter indicators](/media/editingevolved_gutter.png)
 
