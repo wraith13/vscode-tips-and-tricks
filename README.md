@@ -273,11 +273,11 @@ Click the "x" on the bottom right of the extension card.
 
 # File and folder management
 
-## OS X layout
+## Integrated terminal
 
-Using mission control, put a terminal window on the same screen as VS Code. Wala! You now have an integrated terminal. 
+> Windows / Linux / Mac: <kbd>ctrl+`</kbd>
 
-![OS X layout](/media/osx_layout.png)
+![Integrated terminal](/media/integrated_terminal.png)
 
 ## Autosave
 
