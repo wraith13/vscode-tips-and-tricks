@@ -449,9 +449,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Code formatting
 
-> Mac: <kbd>opt+shift+f</kbd>  
+> Mac: <kbd>cmd+k, cmd+f</kbd>
 
-> Windows / Linux: <kbd>shift+alt+f</kbd>
+> Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
 
 ![code formatting](/media/code_formatting.gif)
 
