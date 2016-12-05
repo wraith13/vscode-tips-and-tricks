@@ -455,7 +455,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
 
 ### Whole document format 
-> Windows / Linux: <kbd>shift+alt+f</kbd
+> Windows / Linux: <kbd>shift+alt+f</kbd>
 
 
 ![code formatting](/media/code_formatting.gif)
