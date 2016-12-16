@@ -44,6 +44,12 @@ Type "?" to view help suggestions.
 
 ## Command line arguments
 
+> Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux). 
+
+> Windows: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_windows).
+
+> Mac: see below. 
+
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
 to execute "Shell Command: Install 'code' command in PATH". 
 
@@ -106,7 +112,7 @@ Open `settings.json`
 
 > Mac: <kbd>cmd+,</kbd>
 
-> Windows / Linxu: File -> Preferences -> User Settings
+> Windows / Linux: File -> Preferences -> User Settings
 
 *Change the font size*
 
@@ -258,11 +264,11 @@ Click the "x" on the bottom right of the extension card.
 
 # File and folder management
 
-## OS X layout
+## Integrated terminal
 
-Using mission control, put a terminal window on the same screen as VS Code. Wala! You know have an integrated terminal. 
+> Windows / Linux / Mac: <kbd>ctrl+`</kbd>
 
-![OS X layout](/media/osx_layout.png)
+![Integrated terminal](/media/integrated_terminal.png)
 
 ## Autosave
 
@@ -286,6 +292,8 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
+> Linux: <kbd>ctrl+2</kbd>
+
 ![split editors](/media/split_editor.gif)
 
 ## Switch between editors
@@ -295,6 +303,16 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 > Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
 
 ![navigate editors](/media/navigate_editors.gif)
+
+## Move to Explorer window
+
+> Mac: <kbd>cmd+shift+e</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+e</kbd>
+
+## Close the currently opened folder
+
+> Linux: <kbd>ctrl+k f</kbd>
 
 ## History
 
@@ -338,7 +356,7 @@ Setup language associations for files that aren't detected accurately (i.e. many
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching).
 
-> Mac: <kbd>up+cmd+\\<kbd>
+> Mac: <kbd>cmd+shift+\\</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+\\</kbd>
 
@@ -350,7 +368,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
 
-> Windows / Linux: <kbd></kbd>
+> Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
+
+> Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
@@ -364,7 +384,7 @@ Add more cursors to current selection.
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
-> Windows / Linux: <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
@@ -382,7 +402,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
-> Windows: <kbd>ctrl+shift+o</kbd>
+> Windows / Linux: <kbd>ctrl+shift+o</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
@@ -412,7 +432,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Trim trailing whitespace
 
-> Mac: <kbd>shift+up+x</kbd>
+> Mac: <kbd>cmd+shift+x</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+x</kbd>
 
@@ -420,7 +440,14 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Code formatting
 
-> Mac / Windows / Linux: <kbd>shift+alt+f</kbd>
+### Currently selected source code
+> Mac: <kbd>cmd+k, cmd+f</kbd>
+
+> Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
+
+### Whole document format 
+> Windows / Linux: <kbd>shift+alt+f</kbd>
+
 
 ![code formatting](/media/code_formatting.gif)
 
@@ -444,7 +471,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
 
-> Windows / Linux: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+> Windows: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+
+> Linux: <kbd>ctrl+home</kbd> and <kbd>ctrl+end</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
@@ -457,6 +486,13 @@ In a markdown file use
 > Windows / Linux: <kbd>ctrl+shift+v</kbd>
 
 ![toggle readme preview](/media/toggle_preview.gif)
+
+## Side by Side Markdown Edit and Preview
+
+In a markdown file use
+
+> Linux: <kbd>ctrl+k v</kbd>
+
 
 # Intellisense
 
@@ -586,7 +622,7 @@ typings install react --ambient --save
 
 ## Create custom snippets
 
-`File -> Preferences -> User Snippets`, select the language, and create a shippet. 
+`File -> Preferences -> User Snippets`, select the language, and create a snippet. 
 
 ```json
 "create component": {
@@ -669,7 +705,7 @@ to run `toggleOutput`. Select Git in the dropdown.
 
 ## Gutter indicators
 
-View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_gutter-indicators) for more details. 
+View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details. 
 
 ![git gutter indicators](/media/editingevolved_gutter.png)
 
@@ -743,7 +779,7 @@ for getting things to work properly.
 
 ## Run tasks from command palette
 
-<kbd>f1</kdb>, run the command "Run Task", and select the task you want to run. Terminate the running
+<kbd>f1</kbd>, run the command "Run Task", and select the task you want to run. Terminate the running
 task by running the command "Terminate Running Task"
 
 ![task runner](/media/task_runner.gif)
@@ -753,4 +789,4 @@ task by running the command "Terminate Running Task"
 
 * [vscode official docs](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
-* [vscode-tips](https://github.com/tstringer/vscode-tips)
+* [awesome vscode](https://github.com/viatsko/awesome-vscode)
