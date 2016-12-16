@@ -42,13 +42,6 @@ Quickly open files and run commands (see below).
 
 Type "?" to view help suggestions. 
 
-## Copy and paste commands into quick open
-
-<kbd>cmd+p</kbd> then paste the command you want to run. This is especially
-useful with the extension marketplace. 
-
-![marketplace copy and paste](/media/mp_copy_paste.png)
-
 ## Command line arguments
 
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
