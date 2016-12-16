@@ -14,11 +14,11 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. Check on the Default Keyboard shortcuts file. 
+> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/customization/keybindings) for the latest keyboard shortcut reference. 
 
 # Basics
 
-## Open command palette
+## Command Palatte
 
 Easy access to all commands available in VS Code. 
 
@@ -42,7 +42,7 @@ Quickly open files and run commands (see below).
 
 Type "?" to view help suggestions. 
 
-## Command line arguments
+## CLI tool
 
 > Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux). 
 
@@ -88,12 +88,6 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![status errors and warnings](/media/status_errors_warnings.png)
 
-**Update extensions**
-
-Badges will appear in the bottom left of the status bar. 
-
-![extension actions](/media/extension_actions.png)
-
 **Change language mode**
 
 > Mac: <kbd>cmd+k m</kbd>
@@ -118,6 +112,18 @@ Open `settings.json`
 
 ```json
 "editor.fontSize": 18
+```
+
+*Font ligatures*
+
+```json
+"editor.fontLigatures": true
+```
+
+*Format on save*
+
+```json
+"editor.formatOnSave": true,
 ```
 
 *Change the size of tab characters*
@@ -155,6 +161,8 @@ Remove these files / folders from search results.
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
 
 ## Preview themes
+
+Open the command palatte and type "themes". You can install more themes from the extension Marketplace. 
 
 ![Preview themes](/media/preview_themes.gif)
 
@@ -237,9 +245,9 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd>
 
-then type "ext install". Select the extension you want and hit <kbd>enter</kbd>
+then type "Install Extension". This will take you to the extension side panel. 
 
-![install extension](/media/install_extension.gif)
+![TODO](TODO)
 
 ## Extension recommendations
 
@@ -247,20 +255,9 @@ then type "ext install". Select the extension you want and hit <kbd>enter</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd>
 
-then type "ext", then select "Show Extension Recommendations"
+then type "Show Recommended Extensions"
 
-![extension recommendations](/media/extension_recommendations.gif)
-
-## Uninstall an extension
-
-> Mac: <kbd>cmd+shift+p</kbd>
-
-> Windows / Linux: <kbd>ctrl+shift+p</kbd>
-
-then type "ext", then select "Show Installed Extensions". 
-Click the "x" on the bottom right of the extension card. 
-
-![uninstall extension](/media/uninstall_extension.gif)
+![TODO](TODO)
 
 # File and folder management
 
@@ -346,21 +343,13 @@ Setup language associations for files that aren't detected accurately (i.e. many
 
 ```json
 "file.associations": {
-    ".eslintrc": "json"
+    ".database": "json"
 }
 ```
 
 # Editing hacks
 
-## Bracket matching
-
-More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching).
-
-> Mac: <kbd>cmd+shift+\\</kbd>
-
-> Windows / Linux: <kbd>ctrl+shift+\\</kbd>
-
-![bracket matching](/media/bracket_matching.gif)
+Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor. 
 
 ## Multi cursor selection
 
@@ -380,7 +369,15 @@ Add more cursors to current selection.
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
-## Copy line
+## Join line
+
+TODO
+
+## Paste and Indent
+
+TODO
+
+## Copy line up / down
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
@@ -592,25 +589,6 @@ Here is configuration to use es6.
 See intellisense for your package.json file. 
 
 ![package json intellisense](/media/package_json_intellisense.gif)
-
-## Install typings
-
-Install [typings](https://github.com/typings/typings) to bring in the `.d.ts` files which power javascript intellisense. 
-
-```bash
-npm install typings --global
-
-# Search for definitions.
-typings search tape
-
-# Find an available definition (by name).
-typings search --name react
-
-# Install typings (DT is "ambient", make sure to enable the flag and persist the selection in `typings.json`).
-typings install react --ambient --save
-```
-
-`install` will create a typings folder. VS Code will reference the `.d.ts` files for intellisense. 
 
 ## Emmet syntax
 
