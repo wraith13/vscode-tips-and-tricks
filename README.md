@@ -192,7 +192,7 @@ Open `settings.json`
 
 > **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team. 
 
-![font ligatures](font-ligatures-annotated.png)
+![font ligatures](/media/font-ligatures-annotated.png)
 
 *Auto Save*
 
