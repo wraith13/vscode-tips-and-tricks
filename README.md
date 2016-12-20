@@ -18,29 +18,43 @@
 
 # Basics
 
+## Insider Version of VS Code
+
+The VS Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders). 
+
+* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build. 
+* Frequent Builds - New builds everyday with the latest bug fixes and features. 
+* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently. 
+
+![side by side install](/media/side-by-side-install.png)
+
 ## Command Palatte
 
-Easy access to all commands available in VS Code. 
+Access all available commands based on your current context. 
 
 > Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
 
-![command palette](/media/command_p.png)
+![command palette](/media/open-command-palatte.gif)
 
 ## Reference keybindings
 
 All of the commands are in the command palette with the associated key binding (if it exists). If you forget what the key binding is use the command palette to help you out. 
 
+![keyboard references](/media/keyboard-references.png)
+
 ## Quick open
 
-Quickly open files and run commands (see below). 
+Quickly open files.
 
 > Mac: <kbd>cmd+p</kbd>
 
 > Windows / Linux: <kbd>ctrl+p</kbd>
 
-Type "?" to view help suggestions. 
+![Quick Open](/media/QuickOpen.gif)
+
+> **Tip:** Type "?" to view help suggestions. 
 
 ## CLI tool
 
@@ -57,6 +71,9 @@ to execute "Shell Command: Install 'code' command in PATH".
 
 
 ```bash
+# open code with current directory
+code .
+
 # create a new window
 code -n
 
@@ -68,7 +85,12 @@ code --diff <file1> <file2>
 
 # see help options
 code --help
+
+# disable all extensions
+code --disable-extensions .
 ```
+
+![all cli commands](/media/vscode-cli-commands.png)
 
 ## .vscode folder
 
@@ -86,7 +108,7 @@ Quickly jump to errors and warnings in the project.
 
 Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
-![status errors and warnings](/media/status_errors_warnings.png)
+![errors and warnings](/media/Errors_Warnings.gif)
 
 **Change language mode**
 
@@ -98,9 +120,51 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 # Customization
 
-Lots of things you can do here. Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
+There are many things you can do to customize VS Code. 
 
-## Customize editor
+* Change your theme
+* Change your keyboard shortcuts
+* Tune your settings
+* Add JSON validation
+* Create snippets 
+* Install extensions
+
+Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
+
+## Change your theme
+
+Open the command palatte and type "themes". You can install more themes from the extension Marketplace. 
+
+![Preview themes](/media/PreviewThemes.gif)
+
+Additionally, you can install and change your file icon themes. 
+
+![File icon themes](/media/PreviewFileIconThemes.gif)
+
+## Change your keyboard shortcuts
+
+### Keyboard Reference Sheets
+
+Download the keyboard shortcut reference sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)). 
+
+### Keymaps
+
+Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to Preferences -> Keymap Extensions to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
+
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+- [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
+- [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+
+### Customize your keyboard shortcuts
+
+Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right. 
+
+![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
+
+See more in the [Official Documentation](https://code.visualstudio.com/docs/customization/keybindings). 
+
+## Tune your settings
 
 Open `settings.json` 
 
@@ -114,10 +178,26 @@ Open `settings.json`
 "editor.fontSize": 18
 ```
 
+*Change the zoom level*
+
+```json
+"window.zoomLevel": 5
+```
+
 *Font ligatures*
 
 ```json
 "editor.fontLigatures": true
+```
+
+> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team. 
+
+![font ligatures](font-ligatures-annotated.png)
+
+*Auto Save*
+
+```json
+"files.autoSave": true
 ```
 
 *Format on save*
@@ -136,6 +216,12 @@ Open `settings.json`
 
 ```json
 "editor.insertSpaces": true
+```
+
+*Render whitespace*
+
+```json
+"editor.renderWhitespace": true
 ```
 
 *Ignore files / folders*
@@ -160,13 +246,7 @@ Remove these files / folders from search results.
 
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
 
-## Preview themes
-
-Open the command palatte and type "themes". You can install more themes from the extension Marketplace. 
-
-![Preview themes](/media/preview_themes.gif)
-
-## json validation
+## Add JSON Validation
 
 Enabled by default for many files. Create your own schema and validation in `settings.json`
 
@@ -218,9 +298,28 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 # Extensions
 
-## Contribution points
+## Find extensions
 
-[Documentation on contribution points](http://code.visualstudio.com/docs/extensionAPI/extension-points).
+1. In the VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
+2. Search inside VS Code
+3. View extension recommendations
+4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+
+## Install extensions
+
+Click the extension activity bar button. You can search via the search bar or click the more button to filter and sort by install count. 
+
+![install extensions](/media/InstallExtensions.gif)
+
+## Extension recommendations
+
+Click the extension activity bar button. Then click "Show Recommended Extensions" in the more button menu. 
+
+![show recommended extensions](/media/ShowRecommendedExtensions.gif)
+
+## Creating my own extension
+
+Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](http://code.visualstudio.com/docs/extensionAPI/extension-points).
 
 * configuration
 * commands
@@ -231,33 +330,6 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 * themes
 * snippets
 * jsonValidation
-
-## Find extensions
-
-1. The official VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
-2. Search in product (see below)
-3. View extension recommendations (see below)
-4. Community curated extensions like [awesome-vscode](https://github.com/viatsko/awesome-vscode).
-
-## Install extensions
-
-> Mac: <kbd>cmd+shift+p</kbd> 
-
-> Windows / Linux: <kbd>ctrl+shift+p</kbd>
-
-then type "Install Extension". This will take you to the extension side panel. 
-
-![TODO](TODO)
-
-## Extension recommendations
-
-> Mac: <kbd>cmd+shift+p</kbd>
-
-> Windows / Linux: <kbd>ctrl+shift+p</kbd>
-
-then type "Show Recommended Extensions"
-
-![TODO](TODO)
 
 # File and folder management
 
@@ -309,6 +381,8 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ## Close the currently opened folder
 
+> Mac: <kbd>cmd+w</kbd>
+
 > Linux: <kbd>ctrl+k f</kbd>
 
 ## History
@@ -353,8 +427,6 @@ Here are a selection of common features for editing code. If the keyboard shortc
 
 ## Multi cursor selection
 
-More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor).
-
 > Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
 
 > Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
@@ -371,11 +443,9 @@ Add more cursors to current selection.
 
 ## Join line
 
-TODO
+> Mac / Windows / Linux: <kbd>ctrl+j</kbd>
 
-## Paste and Indent
-
-TODO
+![Join lines](/media/JoinLines.gif)
 
 ## Copy line up / down
 
@@ -445,7 +515,6 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ### Whole document format 
 > Windows / Linux: <kbd>shift+alt+f</kbd>
 
-
 ![code formatting](/media/code_formatting.gif)
 
 ## Code folding
@@ -490,10 +559,9 @@ In a markdown file use
 
 > Linux: <kbd>ctrl+k v</kbd>
 
-
 # Intellisense
 
-Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. This might be the most important tip of them all. 
+Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. 
 
 ![intellisense](/media/intellisense.gif)
 
@@ -522,22 +590,6 @@ Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the c
 Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu. 
 
 ![rename symbol](/media/rename_symbol.gif)
-
-
-## jsconfig.json
-
-Use ES6 by configuring jsconfig.json in the root of your javascript source files. 
-
-```json
-{
-    "compilerOptions": {
-        "target": "ES6",
-        "module": "commonjs"
-    }, "exclude": [
-        "npm_modules"
-    ]
-}
-```
 
 ## .eslintrc.json
 
@@ -621,8 +673,6 @@ See more details in [documentation](http://code.visualstudio.com/docs/customizat
 
 # Git Integration
 
-Excellent integration for entire Git workflow. 
-
 ## Diffs
 
 Click Git icon then select the file to diff. 
@@ -636,7 +686,6 @@ Default is side by side diff.
 ![git diff side by side](/media/git_side_by_side.png)
 
 **Inline view**
-
 
 Toggle inline view by clicking more button in the top right. 
 
