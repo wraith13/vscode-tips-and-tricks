@@ -563,7 +563,7 @@ In a markdown file use
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. 
 
-![intellisense](/media/IntelliSense.gif)
+![intellisense](/media/intellisense.gif)
 
 You can view available methods, parameter hints, short documentation, etc. 
 
