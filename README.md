@@ -36,7 +36,7 @@ Access all available commands based on your current context.
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
 
-![command palette](/media/open-command-palatte.gif)
+![command palette](/media/OpenCommandPalatte.gif)
 
 ## Reference keybindings
 
