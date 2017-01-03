@@ -28,7 +28,7 @@ The VS Code team uses the Insiders version to test the latest features and bug f
 
 ![side by side install](/media/side-by-side-install.png)
 
-## Command Palatte
+## Command Palette
 
 Access all available commands based on your current context. 
 
