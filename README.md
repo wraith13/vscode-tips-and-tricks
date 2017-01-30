@@ -445,7 +445,9 @@ Add more cursors to current selection.
 
 ## Join line
 
-> Mac / Windows / Linux: <kbd>ctrl+j</kbd>
+> Mac: <kbd>ctrl+j</kbd>
+
+> Windows / Linux: Not bound by default. Open Keyboard shortcuts and bind `editor.action.joinLines` to a shortcut of your choice. 
 
 ![Join lines](/media/JoinLines.gif)
 
