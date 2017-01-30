@@ -503,7 +503,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+shift+x</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+x</kbd>
+> Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
