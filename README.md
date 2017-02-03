@@ -34,6 +34,10 @@ Open the welcome page to get started with the basics of VS Code. Help -> Welcome
 
 ![welcome page](/media/welcome_page.png)
 
+Includes the interactive playground.
+
+![interactive playground](/media/interactive_playground.png)
+
 ## Command Palette
 
 Access all available commands based on your current context. 
@@ -180,6 +184,12 @@ Open `settings.json`
 
 > Windows / Linux: File -> Preferences -> User Settings
 
+*Format on paste*
+
+```json
+"editor.formatOnPaste": true
+```
+
 *Change the font size*
 
 ```json
@@ -253,6 +263,20 @@ Remove these files / folders from search results.
 ```
 
 And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
+
+## Language specific settings
+
+For those settings you only want for specific languages. 
+
+```json
+"[languageid]": {
+    
+}
+```
+
+> **Tip:** You can find the language ID by typing in the command palatte "Cofnigure language specific settings"
+
+![language based settings](/media/lang-based-settings.png)
 
 ## Add JSON Validation
 
@@ -362,6 +386,16 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 > Windows / Linux: <kbd>ctrl+b</kbd>
 
 ![toggle side bar](/media/toggle_side_bar.gif)
+
+## Zen Mode
+
+> Mac: <kbd>cmd+k z</kbd>
+
+> Windows / Linux: <kbd>ctrl+k z</kbd>
+
+![zen mode](/media/zen_mode.gif)
+
+Enter distraction free mode. 
 
 ## Side by side editing
 
@@ -576,6 +610,10 @@ In a markdown file use
 In a markdown file use
 
 > Linux: <kbd>ctrl+k v</kbd>
+
+Special bonus: The preview will now sync. 
+
+![markdown sync](/media/markdown-preview-sync.gif)
 
 # Intellisense
 
