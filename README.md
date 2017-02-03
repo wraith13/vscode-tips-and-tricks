@@ -28,7 +28,7 @@ The VS Code team uses the Insiders version to test the latest features and bug f
 
 ![side by side install](/media/side-by-side-install.png)
 
-## Command Palatte
+## Command Palette
 
 Access all available commands based on your current context. 
 
@@ -453,7 +453,9 @@ Add more cursors to current selection.
 
 ## Join line
 
-> Mac / Windows / Linux: <kbd>ctrl+j</kbd>
+> Mac: <kbd>ctrl+j</kbd>
+
+> Windows / Linux: Not bound by default. Open Keyboard shortcuts and bind `editor.action.joinLines` to a shortcut of your choice. 
 
 ![Join lines](/media/JoinLines.gif)
 
@@ -511,7 +513,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Mac: <kbd>cmd+shift+x</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+x</kbd>
+> Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
