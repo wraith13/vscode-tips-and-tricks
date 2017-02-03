@@ -28,6 +28,12 @@ The VS Code team uses the Insiders version to test the latest features and bug f
 
 ![side by side install](/media/side-by-side-install.png)
 
+## Getting Started
+
+Open the welcome page to get started with the basics of VS Code. Help -> Welcome.
+
+![welcome page](/media/welcome_page.png)
+
 ## Command Palette
 
 Access all available commands based on your current context. 
