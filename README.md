@@ -381,6 +381,14 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+e</kbd>
 
+## Create and open a file
+
+> Mac: <kbd>cmd+click</kbd>
+
+> Windows / Linux: <kbd>ctrl+click</kbd>
+
+![create and open file](/media/create_open_file.gif)
+
 ## Close the currently opened folder
 
 > Mac: <kbd>cmd+w</kbd>
