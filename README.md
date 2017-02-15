@@ -274,7 +274,7 @@ For those settings you only want for specific languages.
 }
 ```
 
-> **Tip:** You can find the language ID by typing in the command palatte "Cofnigure language specific settings"
+> **Tip:** You can find the language ID by typing in the command palatte "Configure language specific settings"
 
 ![language based settings](/media/lang-based-settings.png)
 
