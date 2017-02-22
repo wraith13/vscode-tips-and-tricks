@@ -447,7 +447,7 @@ Navigate back.
 
 Navigate Forward.
 
-> Mac: <kbd>ctrl+shift+up</kbd>
+> Mac: <kbd>ctrl+shift+-</kbd>
 
 > Windows / Linux: <kbd>alt+right</kbd>
 
