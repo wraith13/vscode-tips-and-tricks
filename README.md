@@ -1,8 +1,10 @@
-# [VS Code](https://code.visualstudio.com) Tips and Tricks
+# [VS Code](https://code.visualstudio.com) ヒントとテクニック
 
-# Table of Contents
+> 👻 このドキュメントは [VS Code Tips and Tricks](https://github.com/Microsoft/vscode-tips-and-tricks) の日本語訳です
 
-1. <a href="#basics">Basics</a>
+# 目次
+
+1. <a href="#basics">基本</a>
 2. <a href="#customization">Customization</a>
 3. <a href="#extensions">Extensions</a>
 4. <a href="#file-and-folder-management">File and folder management</a>
@@ -14,9 +16,9 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/customization/keybindings) for the latest keyboard shortcut reference. 
+> 以下のキーボードショートカットは最新ビルドと正確かもしれませんし、そうでないかもしれません。[こちら](https://code.visualstudio.com/docs/customization/keybindings)の最新のキーボードショートカットリファレンスを参照してください。 
 
-# Basics
+# 基本
 
 ## Insider Version of VS Code
 
