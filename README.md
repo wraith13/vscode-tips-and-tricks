@@ -4,13 +4,13 @@
 
 # 目次
 
-1. <a href="#basics">基本</a>
-2. <a href="#customization">Customization</a>
-3. <a href="#extensions">Extensions</a>
-4. <a href="#file-and-folder-management">File and folder management</a>
-5. <a href="#editing-hacks">Editing hacks</a>
-6. <a href="#intellisense">Intellisense</a>
-7. <a href="#snippets">Snippets</a>
+1. <a href="#基本">基本</a>
+2. <a href="#カスタマイズ">カスタマイズ</a>
+3. <a href="#拡張機能">拡張機能</a>
+4. <a href="#ファイルとフォルダの管理">ファイルとフォルダの管理</a>
+5. <a href="#便利な編集機能">便利な編集機能</a>
+6. <a href="#インテリセンス">インテリセンス</a>
+7. <a href="#スニペット">スニペット</a>
 8. <a href="#git-integration">Git integration</a>
 9. <a href="#debugging">Debugging</a>
 10. <a href="#task-runner">Task runner</a>
@@ -20,7 +20,7 @@
 
 # 基本
 
-## Insider Version of VS Code
+## VS Code のインサイダーバージョン
 
 The VS Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders). 
 
@@ -130,7 +130,7 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![change syntax](/media/change_syntax.gif)
 
-# Customization
+# カスタマイズ
 
 There are many things you can do to customize VS Code. 
 
@@ -138,8 +138,8 @@ There are many things you can do to customize VS Code.
 * Change your keyboard shortcuts
 * Tune your settings
 * Add JSON validation
-* Create snippets 
-* Install extensions
+* スニペットの作成 
+* 拡張機能のインストール
 
 Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
 
@@ -330,22 +330,22 @@ or a custom schema
 
 See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
 
-# Extensions
+# 拡張機能
 
-## Find extensions
+## 拡張機能を見つける
 
 1. In the VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
 2. Search inside VS Code
 3. View extension recommendations
 4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
-## Install extensions
+## 拡張機能のインストール
 
 Click the extension activity bar button. You can search via the search bar or click the more button to filter and sort by install count. 
 
-![install extensions](/media/InstallExtensions.gif)
+![拡張機能のインストール](/media/InstallExtensions.gif)
 
-## Extension recommendations
+## オススメの拡張機能
 
 Click the extension activity bar button. Then click "Show Recommended Extensions" in the more button menu. 
 
@@ -365,7 +365,7 @@ Are you interested in creating your own extension? You can learn how to do this 
 * snippets
 * jsonValidation
 
-# File and folder management
+# ファイルとフォルダの管理
 
 ## Integrated terminal
 
@@ -473,7 +473,7 @@ Setup language associations for files that aren't detected accurately (i.e. many
 }
 ```
 
-# Editing hacks
+# 便利な編集機能
 
 Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor. 
 
@@ -617,11 +617,11 @@ Special bonus: The preview will now sync.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
-# Intellisense
+# インテリセンス
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. 
 
-![intellisense](/media/intellisense.gif)
+![インテリセンス](/media/intellisense.gif)
 
 You can view available methods, parameter hints, short documentation, etc. 
 
@@ -706,11 +706,12 @@ See intellisense for your package.json file.
 
 ![emmet syntax](/media/emmet_syntax.gif)
 
-# Snippets
+# スニペット
 
-## Create custom snippets
+## 独自スニペットの作成
 
-`File -> Preferences -> User Snippets`, select the language, and create a snippet. 
+`ファイル -> 基本設定 -> ユーザー スニペット`, select the language, and create a snippet. 
+> 👻 Mac では `Code -> 基本設定 -> ユーザー スニペット` となっている
 
 ```json
 "create component": {
