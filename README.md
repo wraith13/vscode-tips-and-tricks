@@ -11,10 +11,10 @@
 5. <a href="#便利な編集機能">便利な編集機能</a>
 6. <a href="#インテリセンス">インテリセンス</a>
 7. <a href="#スニペット">スニペット</a>
-8. <a href="#git-integration">Git integration</a>
-9. <a href="#debugging">Debugging</a>
-10. <a href="#task-runner">Task runner</a>
-11. <a href="#other-resources">Other Resources</a>
+8. <a href="#fit統合">Git統合</a>
+9. <a href="#デバッギング">デバッギング</a>
+10. <a href="#タスク-ランナー">タスク ランナー</a>
+11. <a href="#その他のリソース">その他のリソース</a>
 
 > 以下のキーボードショートカットは最新ビルドと正確かもしれませんし、そうでないかもしれません。[こちら](https://code.visualstudio.com/docs/customization/keybindings)の最新のキーボードショートカットリファレンスを参照してください。 
 
@@ -40,7 +40,7 @@ Includes the interactive playground.
 
 ![interactive playground](/media/interactive_playground.png)
 
-## Command Palette
+## コマンド パレット
 
 Access all available commands based on your current context. 
 
@@ -48,7 +48,7 @@ Access all available commands based on your current context.
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
 
-![command palette](/media/OpenCommandPalatte.gif)
+![コマンド パレット](/media/OpenCommandPalatte.gif)
 
 ## Reference keybindings
 
@@ -730,7 +730,7 @@ See intellisense for your package.json file.
 
 See more details in [documentation](http://code.visualstudio.com/docs/customization/userdefinedsnippets#_creating-your-own-snippets). 
 
-# Git Integration
+# Git統合
 
 ## Diffs
 
@@ -807,7 +807,7 @@ During a merge click the git icon and make changes in the diff view.
 git config --global merge.tool code
 ```
 
-# Debugging
+# デバッギング
 
 ## Configure debugger
 
@@ -830,7 +830,7 @@ Inspect variables in the debug panels and in the console.
 
 ![data inspection](/media/debug_data_inspection.gif)
 
-# Task Runner
+# タスク ランナー
 
 ## Auto detect tasks
 
@@ -871,7 +871,7 @@ task by running the command "Terminate Running Task"
 ![task runner](/media/task_runner.gif)
 
 
-## Other Resources
+## その他のリソース
 
 * [vscode official docs](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
