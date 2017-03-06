@@ -22,11 +22,11 @@
 
 ## VS Code のインサイダーバージョン
 
-The VS Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders). 
+VS Code チームは最新の機能とバグ修正を確認する為にインサイダーバージョンを使っています。 あたなも[ここからダウンロード](https://code.visualstudio.com/insiders)して同じバージョンを使う事ができます。
 
-* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build. 
-* Frequent Builds - New builds everyday with the latest bug fixes and features. 
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently. 
+* アーリーアダプターの為に - Insiders has the most recent code changes and may lead to the occasional broken build. 
+* 頻繁なビルド - New builds everyday with the latest bug fixes and features. 
+* Side-by-side インストール - Insiders installs next to the Stable build allowing you to use either independently. 
 
 ![side by side install](/media/side-by-side-install.png)
 
