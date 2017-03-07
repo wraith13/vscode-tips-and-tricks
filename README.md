@@ -24,21 +24,21 @@
 
 VS Code チームは最新の機能とバグ修正を確認する為にインサイダーバージョンを使っています。 あたなも[ここからダウンロード](https://code.visualstudio.com/insiders)して同じバージョンを使う事ができます。
 
-* アーリーアダプターの為に - Insiders has the most recent code changes and may lead to the occasional broken build. 
+* アーリーアダプターの為に - インサイダーは最も直近のコード変更と時々壊れたビルドを手にすることになるでしょう。
 * 頻繁なビルド - New builds everyday with the latest bug fixes and features. 
 * Side-by-side インストール - Insiders installs next to the Stable build allowing you to use either independently. 
 
 ![side by side install](/media/side-by-side-install.png)
 
-## Getting Started
+## はじめよう
 
-Open the welcome page to get started with the basics of VS Code. Help -> Welcome.
+ようこそページを開いて VS Code の基本に入門しよう。 `ヘルプ` → `ようこそ`.
 
 ![welcome page](/media/welcome_page.png)
 
-Includes the interactive playground.
+対話型プレイグラウンドを含みます。
 
-![interactive playground](/media/interactive_playground.png)
+![対話型プレイグラウンド](/media/interactive_playground.png)
 
 ## コマンド パレット
 
@@ -50,13 +50,13 @@ Access all available commands based on your current context.
 
 ![コマンド パレット](/media/OpenCommandPalatte.gif)
 
-## Reference keybindings
+## キーボードショートカットの参照
 
 All of the commands are in the command palette with the associated key binding (if it exists). If you forget what the key binding is use the command palette to help you out. 
 
 ![keyboard references](/media/keyboard-references.png)
 
-## Quick open
+## クイック オープン
 
 Quickly open files.
 
@@ -68,7 +68,7 @@ Quickly open files.
 
 > **Tip:** Type "?" to view help suggestions. 
 
-## CLI tool
+## CLI ツール
 
 > Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux). 
 
@@ -104,13 +104,13 @@ code --disable-extensions .
 
 ![all cli commands](/media/vscode-cli-commands.png)
 
-## .vscode folder
+## .vscode フォルダ
 
 Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
 
-## Status bar decorations
+## ステータス バー の装飾
 
-**Errors and Warnings**
+**エラーと警告**
 
 > Mac: <kbd>shift+cmd+m</kbd>
 
@@ -120,7 +120,7 @@ Quickly jump to errors and warnings in the project.
 
 Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
-![errors and warnings](/media/Errors_Warnings.gif)
+![エラーと警告](/media/Errors_Warnings.gif)
 
 **Change language mode**
 
@@ -143,7 +143,7 @@ There are many things you can do to customize VS Code.
 
 Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
 
-## Change your theme
+## テーマの変更
 
 Open the command palatte and type "themes". You can install more themes from the extension Marketplace. 
 
@@ -153,11 +153,11 @@ Additionally, you can install and change your file icon themes.
 
 ![File icon themes](/media/PreviewFileIconThemes.gif)
 
-## Change your keyboard shortcuts
+## キーボードショートカットの変更
 
-### Keyboard Reference Sheets
+### キーボードショートカット一覧
 
-Download the keyboard shortcut reference sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)). 
+あなたの環境([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144))の為のキーボードショートカット一覧をダウンロードしよう。
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
