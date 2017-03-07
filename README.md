@@ -838,7 +838,7 @@ Inspect variables in the debug panels and in the console.
 This will generate a task.json file with content like the following. See 
 [documentation](http://go.microsoft.com/fwlink/?LinkId=733558) for more details.
 
-```json
+```javascript
 {
 	// See http://go.microsoft.com/fwlink/?LinkId=733558
 	// for the documentation about the tasks.json format
@@ -862,6 +862,8 @@ This will generate a task.json file with content like the following. See
 
 There are occasionally issues with auto generation. Check out the documentation
 for getting things to work properly. 
+
+> 👻 json の中ではコメントは使えないです。
 
 ## Run tasks from command palette
 
