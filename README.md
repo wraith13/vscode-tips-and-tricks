@@ -32,7 +32,7 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ## はじめよう
 
-ようこそページを開いて VS Code の基本に入門しよう。 <kbd><kbd>ヘルプ</kbd> → <kbd>ようこそ</kbd></kbd>.
+ようこそページを開いて VS Code の基本に入門しよう。 <kbd>ヘルプ</kbd> → <kbd>ようこそ</kbd>.
 
 ![ようこそページ](/media/welcome_page.png)
 
@@ -44,9 +44,9 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 Access all available commands based on your current context. 
 
-> Mac: <kbd><kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd></kbd> or <kbd>f1</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> or <kbd>f1</kbd>
 
-> Windows / Linux: <kbd><kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd></kbd> or <kbd>f1</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> or <kbd>f1</kbd>
 
 ![コマンド パレット](/media/OpenCommandPalatte.gif)
 
@@ -161,7 +161,7 @@ Additionally, you can install and change your file icon themes.
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
-### Keymaps
+### キーマップ
 
 Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to Preferences -> Keymap Extensions to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
 
@@ -170,7 +170,7 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 - [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 
-### Customize your keyboard shortcuts
+### キーボードショートカットのカスタマイズ
 
 Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right. 
 
@@ -182,9 +182,9 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 
 Open `settings.json` 
 
-> Mac: <kbd>cmd+,</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>,</kbd>
 
-> Windows / Linux: File -> Preferences -> User Settings
+> Windows / Linux: <kbd>File</kbd> -> <kbd>Preferences</kbd> -> <kbd>User Settings</kbd>
 
 *Format on paste*
 
@@ -334,9 +334,9 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 ## 拡張機能を見つける
 
-1. In the VS Code [marketplace](https://marketplace.visualstudio.com/vscode).
-2. Search inside VS Code
-3. View extension recommendations
+1. VS Code の [marketplace](https://marketplace.visualstudio.com/vscode) で
+2. VS Code 内で検索
+3. お勧めの拡張機能を表示
 4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
 ## 拡張機能のインストール
@@ -710,8 +710,8 @@ See intellisense for your package.json file.
 
 ## 独自スニペットの作成
 
-<kbd><kbd>ファイル</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd></kbd>, select the language, and create a snippet. 
-> 👻 Mac では <kbd><kbd>Code</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd></kbd> となっている
+<kbd>ファイル</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd>, select the language, and create a snippet. 
+> 👻 Mac では <kbd>Code</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd> となっている
 
 ```json
 "create component": {
