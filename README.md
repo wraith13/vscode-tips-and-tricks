@@ -32,7 +32,7 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ## はじめよう
 
-ようこそページを開いて VS Code の基本に入門しよう。 <kbd><kbd>ヘルプ<kbd> → <kbd>ようこそ</kbd></kbd>.
+ようこそページを開いて VS Code の基本に入門しよう。 <kbd><kbd>ヘルプ</kbd> → <kbd>ようこそ</kbd></kbd>.
 
 ![ようこそページ](/media/welcome_page.png)
 
