@@ -32,9 +32,9 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ## はじめよう
 
-ようこそページを開いて VS Code の基本に入門しよう。 `ヘルプ` → `ようこそ`.
+ようこそページを開いて VS Code の基本に入門しよう。 <kbd><kbd>ヘルプ<kbd> → <kbd>ようこそ</kbd></kbd>.
 
-![welcome page](/media/welcome_page.png)
+![ようこそページ](/media/welcome_page.png)
 
 対話型プレイグラウンドを含みます。
 
@@ -44,9 +44,9 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 Access all available commands based on your current context. 
 
-> Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
+> Mac: <kbd><kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd></kbd> or <kbd>f1</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
+> Windows / Linux: <kbd><kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd></kbd> or <kbd>f1</kbd>
 
 ![コマンド パレット](/media/OpenCommandPalatte.gif)
 
@@ -710,8 +710,8 @@ See intellisense for your package.json file.
 
 ## 独自スニペットの作成
 
-`ファイル -> 基本設定 -> ユーザー スニペット`, select the language, and create a snippet. 
-> 👻 Mac では `Code -> 基本設定 -> ユーザー スニペット` となっている
+<kbd><kbd>ファイル</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd></kbd>, select the language, and create a snippet. 
+> 👻 Mac では <kbd><kbd>Code</kbd> → <kbd>基本設定</kbd> → <kbd>ユーザー スニペット</kbd></kbd> となっている
 
 ```json
 "create component": {
