@@ -42,7 +42,7 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ## コマンド パレット
 
-Access all available commands based on your current context. 
+あなたの現在のコンテキストで利用可能な全てのコマンドにアクセスできます。
 
 > Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> or <kbd>f1</kbd>
 
@@ -58,7 +58,7 @@ All of the commands are in the command palette with the associated key binding (
 
 ## クイック オープン
 
-Quickly open files.
+素早くファイルを開きます。
 
 > Mac: <kbd>cmd+p</kbd>
 
@@ -70,14 +70,14 @@ Quickly open files.
 
 ## CLI ツール
 
-> Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux). 
+> Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux).
 
 > Windows: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_windows).
 
-> Mac: see below. 
+> Mac: see below.
 
 Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
-to execute "Shell Command: Install 'code' command in PATH". 
+to execute "Shell Command: Install 'code' command in PATH".
 
 ![shell command](/media/setup_shell-command.png)
 
@@ -122,20 +122,20 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![エラーと警告](/media/Errors_Warnings.gif)
 
-**Change language mode**
+**言語モードの変更**
 
 > Mac: <kbd>cmd+k m</kbd>
 
 > Windows / Linux: <kbd>ctrl+k m</kbd>
 
-![change syntax](/media/change_syntax.gif)
+![構文強調の変更](/media/change_syntax.gif)
 
 # カスタマイズ
 
 There are many things you can do to customize VS Code. 
 
-* Change your theme
-* Change your keyboard shortcuts
+* テーマの変更
+* キーボードショートカットの変更
 * Tune your settings
 * Add JSON validation
 * スニペットの作成 
