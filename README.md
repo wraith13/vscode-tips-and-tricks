@@ -214,7 +214,7 @@ Open `settings.json`
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
-*Auto Save*
+*自動保存*
 
 ```json
 "files.autoSave": true
@@ -268,7 +268,7 @@ And many, many [others](http://code.visualstudio.com/docs/customization/userandw
 
 ## Language specific settings
 
-For those settings you only want for specific languages. 
+For those settings you only want for specific languages.
 
 ```json
 "[languageid]": {
@@ -409,7 +409,7 @@ Enter distraction free mode.
 
 ![split editors](/media/split_editor.gif)
 
-## Switch between editors
+## エディタ間の切り替え
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
 
@@ -417,13 +417,13 @@ Enter distraction free mode.
 
 ![navigate editors](/media/navigate_editors.gif)
 
-## Move to Explorer window
+## エクスプローラー ウィンドウへの移動
 
 > Mac: <kbd>cmd+shift+e</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+e</kbd>
 
-## Create and open a file
+## ファイルのオープンと作成
 
 > Mac: <kbd>cmd+click</kbd>
 
@@ -437,7 +437,7 @@ Enter distraction free mode.
 
 > Linux: <kbd>ctrl+k f</kbd>
 
-## History
+## 履歴
 
 Navigate entire history with <kbd>ctrl+tab</kbd>
 
@@ -865,7 +865,7 @@ for getting things to work properly.
 
 > 👻 json の中ではコメントは使えないです。
 
-## コマンドパレットからのタスクの実行
+## コマンドパレットからのタスク実行
 
 <kbd>f1</kbd>, run the command "Run Task", and select the task you want to run. Terminate the running
 task by running the command "Terminate Running Task"
