@@ -25,10 +25,10 @@
 VS Code チームは最新の機能とバグ修正を確認する為にインサイダーバージョンを使っています。 あたなも[ここからダウンロード](https://code.visualstudio.com/insiders)して同じバージョンを使う事ができます。
 
 * アーリーアダプターの為に - インサイダーは最も直近のコード変更と時々壊れたビルドを手にすることになるでしょう。
-* 頻繁なビルド - New builds everyday with the latest bug fixes and features. 
-* Side-by-side インストール - Insiders installs next to the Stable build allowing you to use either independently. 
+* 頻繁なビルド - 最新のバグ修正と機能を含む毎日の新しいビルド
+* Side-by-side インストール - Insiders installs next to the Stable build allowing you to use either independently.
 
-![side by side install](/media/side-by-side-install.png)
+![side by side インストール](/media/side-by-side-install.png)
 
 ## はじめよう
 
@@ -865,7 +865,7 @@ for getting things to work properly.
 
 > 👻 json の中ではコメントは使えないです。
 
-## Run tasks from command palette
+## コマンドパレットからのタスクの実行
 
 <kbd>f1</kbd>, run the command "Run Task", and select the task you want to run. Terminate the running
 task by running the command "Terminate Running Task"
