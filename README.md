@@ -627,17 +627,17 @@ Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget.
 
 You can view available methods, parameter hints, short documentation, etc.
 
-## Peek
+## 定義をここに表示
 
-Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu. 
+シンボルを選択肢して <kbd>alt+f12</kbd> を押します。あるいは、コンテキストメニューを使用します。
 
-![peek](/media/peek.gif)
+![定義をここに表示](/media/peek.gif)
 
-## Go to definition
+## 定義へ移動
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu.
+シンボルを選択肢して <kbd>f12</kbd> を押します。あるいは、コンテキストメニューを使用します。
 
-![go to definition](/media/goto_definition.gif)
+![定義へ移動](/media/goto_definition.gif)
 
 ## Find all references
 
