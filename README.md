@@ -5,16 +5,16 @@
 # 目次
 
 1. <a href="#基本">基本</a>
-2. <a href="#カスタマイズ">カスタマイズ</a>
-3. <a href="#拡張機能">拡張機能</a>
-4. <a href="#ファイルとフォルダの管理">ファイルとフォルダの管理</a>
-5. <a href="#便利な編集機能">便利な編集機能</a>
-6. <a href="#インテリセンス">インテリセンス</a>
-7. <a href="#スニペット">スニペット</a>
-8. <a href="#fit統合">Git統合</a>
-9. <a href="#デバッギング">デバッギング</a>
-10. <a href="#タスク-ランナー">タスク ランナー</a>
-11. <a href="#その他のリソース">その他のリソース</a>
+1. <a href="#カスタマイズ">カスタマイズ</a>
+1. <a href="#拡張機能">拡張機能</a>
+1. <a href="#ファイルとフォルダの管理">ファイルとフォルダの管理</a>
+1. <a href="#便利な編集機能">便利な編集機能</a>
+1. <a href="#インテリセンス">インテリセンス</a>
+1. <a href="#スニペット">スニペット</a>
+1. <a href="#fit統合">Git統合</a>
+1. <a href="#デバッギング">デバッギング</a>
+1. <a href="#タスク-ランナー">タスク ランナー</a>
+1. <a href="#その他のリソース">その他のリソース</a>
 
 > 以下のキーボードショートカットは最新ビルドと正確かもしれませんし、そうでないかもしれません。[こちら](https://code.visualstudio.com/docs/customization/keybindings)の最新のキーボードショートカットリファレンスを参照してください。 
 
@@ -335,9 +335,9 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 ## 拡張機能を見つける
 
 1. VS Code の [marketplace](https://marketplace.visualstudio.com/vscode) で
-2. VS Code 内で検索
-3. お勧めの拡張機能を表示
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
+1. VS Code 内で検索
+1. お勧めの拡張機能を表示
+1. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
 ## 拡張機能のインストール
 
@@ -493,13 +493,13 @@ Add more cursors to current selection.
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
-## Join line
+## 行の結合
 
 > Mac: <kbd>ctrl+j</kbd>
 
-> Windows / Linux: Not bound by default. Open Keyboard shortcuts and bind `editor.action.joinLines` to a shortcut of your choice. 
+> Windows / Linux: デフォルトでは割り当てられていません。<kbd>ファイル</kbd>→<kbd>基本設定</kbd>→<kbd>キーボード ショートカット</kbd> を開いて `editor.action.joinLines` にあなたの好みでショートカットを割り当ててください。
 
-![Join lines](/media/JoinLines.gif)
+![行の結合](/media/JoinLines.gif)
 
 ## Copy line up / down
 
@@ -519,7 +519,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
-## Find by symbol
+## シンボル検索
 
 > Mac: <kbd>cmd+shift+o</kbd>
 
@@ -562,11 +562,13 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ## Code formatting
 
 ### Currently selected source code
+
 > Mac: <kbd>cmd+k, cmd+f</kbd>
 
 > Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
 
-### Whole document format 
+### Whole document format
+
 > Windows / Linux: <kbd>shift+alt+f</kbd>
 
 ![code formatting](/media/code_formatting.gif)
@@ -619,11 +621,11 @@ Special bonus: The preview will now sync.
 
 # インテリセンス
 
-Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget. 
+Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget.
 
 ![インテリセンス](/media/intellisense.gif)
 
-You can view available methods, parameter hints, short documentation, etc. 
+You can view available methods, parameter hints, short documentation, etc.
 
 ## Peek
 
@@ -633,7 +635,7 @@ Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the con
 
 ## Go to definition
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu. 
+Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu.
 
 ![go to definition](/media/goto_definition.gif)
 
@@ -645,16 +647,16 @@ Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the c
 
 ## Rename symbol
 
-Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu. 
+Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
 
 ![rename symbol](/media/rename_symbol.gif)
 
 ## .eslintrc.json
 
 Install [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). Configure 
-your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring). 
+your linter however you'd like. Specification is [here](http://eslint.org/docs/user-guide/configuring).
 
-Here is configuration to use es6. 
+Here is configuration to use es6.
 
 ```json
 {
@@ -702,7 +704,7 @@ See intellisense for your package.json file.
 
 ## Emmet syntax
 
-[Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).  
+[Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
 ![emmet syntax](/media/emmet_syntax.gif)
 
@@ -734,7 +736,7 @@ See more details in [documentation](http://code.visualstudio.com/docs/customizat
 
 ## Diffs
 
-Click Git icon then select the file to diff. 
+Click Git icon then select the file to diff.
 
 ![git icon](/media/git_icon.png)
 
@@ -746,7 +748,7 @@ Default is side by side diff.
 
 **Inline view**
 
-Toggle inline view by clicking more button in the top right. 
+Toggle inline view by clicking more button in the top right.
 
 ![more git button](/media/more_button.png)
 
@@ -754,7 +756,7 @@ Toggle inline view by clicking more button in the top right.
 
 ## Branches
 
-Easily switch between branches via the status bar. 
+Easily switch between branches via the status bar.
 
 ![switch branches](/media/switch_branches.gif)
 
@@ -762,14 +764,13 @@ Easily switch between branches via the status bar.
 
 **Stage all**
 
-Hover over the number of files and click the plus button. 
+Hover over the number of files and click the plus button.
 
 ![git stage all](/media/git_stage_all.gif)
 
 **Stage selected**
 
-Stage a portion of a file by selecting that file (using the arrows) and then staging 
-"selected lines" via the more button. 
+Stage a portion of a file by selecting that file (using the arrows) and then staging "selected lines" via the more button.
 
 ![git stage selected](/media/git_stage_selected.gif)
 
@@ -781,7 +782,7 @@ Stage a portion of a file by selecting that file (using the arrows) and then sta
 
 Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy to see 
 what git commands are running. This is helpful when learning git or debugging a difficult 
-source control issue. 
+source control issue.
 
 > Mac: <kbd>shift+cmd+u</kbd> 
 
@@ -791,7 +792,7 @@ to run `toggleOutput`. Select Git in the dropdown.
 
 ## Gutter indicators
 
-View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details. 
+View diff decorations in editor. See [documentation](http://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details.
 
 ![git gutter indicators](/media/editingevolved_gutter.png)
 
@@ -814,19 +815,19 @@ git config --global merge.tool code
 <kdb>f1</kdb> and select "Debug: Open Launch.json", select the environment. 
 This will generate a `launch.json` file. Works out of the box as expected for
 Node and other environments. May need some additional configuration for other languages.
-See [documentation](http://code.visualstudio.com/docs/editor/debugging) for more details. 
+See [documentation](http://code.visualstudio.com/docs/editor/debugging) for more details.
 
 ![configure debugging](/media/configure_debug.gif)
 
 ## Breakpoints and stepping through
 
-Place breakpoints next to the line number. Navigate forward with the debug widget. 
+Place breakpoints next to the line number. Navigate forward with the debug widget.
 
 ![debug](/media/node_debug.gif)
 
 ## Data inspection
 
-Inspect variables in the debug panels and in the console. 
+Inspect variables in the debug panels and in the console.
 
 ![data inspection](/media/debug_data_inspection.gif)
 
@@ -861,7 +862,7 @@ This will generate a task.json file with content like the following. See
 ```
 
 There are occasionally issues with auto generation. Check out the documentation
-for getting things to work properly. 
+for getting things to work properly.
 
 > 👻 json の中ではコメントは使えないです。
 
