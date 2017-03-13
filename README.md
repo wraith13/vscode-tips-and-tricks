@@ -110,7 +110,7 @@ Workspace specific files are in `.vscode`. For example, `tasks.json` for the Tas
 
 ## ステータス バー の装飾
 
-**エラーと警告**
+### エラーと警告
 
 > Mac: <kbd>shift+cmd+m</kbd>
 
@@ -122,7 +122,7 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 ![エラーと警告](/media/Errors_Warnings.gif)
 
-**言語モードの変更**
+### 言語モードの変更
 
 > Mac: <kbd>cmd+k m</kbd>
 
@@ -172,7 +172,7 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 
 ### キーボードショートカットのカスタマイズ
 
-Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right. 
+Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right.
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
@@ -180,31 +180,31 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 
 ## Tune your settings
 
-Open `settings.json` 
+`settings.json` を開きます。
 
 > Mac: <kbd>cmd</kbd>+<kbd>,</kbd>
 
-> Windows / Linux: <kbd>File</kbd> -> <kbd>Preferences</kbd> -> <kbd>User Settings</kbd>
+> Windows / Linux: <kbd>ファイル</kbd> -> <kbd>基本設定</kbd> -> <kbd>設定</kbd>
 
-*Format on paste*
+### Format on paste
 
 ```json
 "editor.formatOnPaste": true
 ```
 
-*Change the font size*
+### Change the font size
 
 ```json
 "editor.fontSize": 18
 ```
 
-*Change the zoom level*
+### Change the zoom level
 
 ```json
 "window.zoomLevel": 5
 ```
 
-*Font ligatures*
+### Font ligatures
 
 ```json
 "editor.fontLigatures": true
@@ -214,43 +214,43 @@ Open `settings.json`
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
-*自動保存*
+### 自動保存
 
 ```json
 "files.autoSave": true
 ```
 
-*Format on save*
+### Format on save
 
 ```json
 "editor.formatOnSave": true,
 ```
 
-*Change the size of tab characters*
+### Change the size of tab characters
 
 ```json
 "editor.tabSize": 4
 ```
 
-*Spaces or tabs*
+### Spaces or tabs
 
 ```json
 "editor.insertSpaces": true
 ```
 
-*Render whitespace*
+### Render whitespace
 
 ```json
 "editor.renderWhitespace": true
 ```
 
-*Ignore files / folders*
+### Ignore files / folders
 
 Removes these files / folders from your editor window.
 
 ```json
 "files.exclude": {
-		"somefolder/": true, 
+		"somefolder/": true,
 		"somefile": true
 }
 ```
@@ -293,7 +293,7 @@ Enabled by default for many files. Create your own schema and validation in `set
         "url": "http://json.schemastore.org/bower"
     }
 ]
-``` 
+```
 
 or for a schema defined in your workspace
 
@@ -306,7 +306,7 @@ or for a schema defined in your workspace
         "url": "./myschema.json"
     }
 ]
-``` 
+```
 
 or a custom schema
 
@@ -341,7 +341,7 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 ## 拡張機能のインストール
 
-Click the extension activity bar button. You can search via the search bar or click the more button to filter and sort by install count. 
+Click the extension activity bar button. You can search via the search bar or click the more button to filter and sort by install count.
 
 ![拡張機能のインストール](/media/InstallExtensions.gif)
 
@@ -373,7 +373,7 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
-## Autosave
+## 自動保存
 
 Open `settings.json` with <kbd>cmd+,</kbd>
 
@@ -740,13 +740,13 @@ Click Git icon then select the file to diff.
 
 ![git icon](/media/git_icon.png)
 
-**Side by side**
+## Side by side
 
 Default is side by side diff.
 
 ![git diff side by side](/media/git_side_by_side.png)
 
-**Inline view**
+## Inline view
 
 Toggle inline view by clicking more button in the top right.
 
@@ -762,13 +762,13 @@ Easily switch between branches via the status bar.
 
 ## Staging
 
-**Stage all**
+### Stage all
 
 Hover over the number of files and click the plus button.
 
 ![git stage all](/media/git_stage_all.gif)
 
-**Stage selected**
+### Stage selected
 
 Stage a portion of a file by selecting that file (using the arrows) and then staging "selected lines" via the more button.
 
