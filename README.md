@@ -83,22 +83,22 @@ to execute "Shell Command: Install 'code' command in PATH".
 
 
 ```bash
-# open code with current directory
+# カレントディレクトリで code を開く
 code .
 
-# create a new window
+# 新しいウィンドウの作成
 code -n
 
-# change the language
+# 言語の変更
 code --locale=es
 
-# open diff editor
+# diff エディタを開く
 code --diff <file1> <file2>
 
-# see help options
+# オプションヘルプの表示
 code --help
 
-# disable all extensions
+# 全ての拡張の無効化
 code --disable-extensions .
 ```
 
