@@ -16,7 +16,7 @@
 1. <a href="#タスク-ランナー">タスク ランナー</a>
 1. <a href="#その他のリソース">その他のリソース</a>
 
-> 以下のキーボードショートカットは最新ビルドと正確かもしれませんし、そうでないかもしれません。[こちら](https://code.visualstudio.com/docs/customization/keybindings)の最新のキーボードショートカットリファレンスを参照してください。 
+> 以下のキーボードショートカットは最新ビルドと正確かもしれませんし、そうでないかもしれません。[こちら](https://code.visualstudio.com/docs/customization/keybindings)の最新のキーボードショートカットリファレンスを参照してください。
 
 # 基本
 
@@ -66,7 +66,7 @@ All of the commands are in the command palette with the associated key binding (
 
 ![Quick Open](/media/QuickOpen.gif)
 
-> **Tip:** Type "?" to view help suggestions. 
+> **Tip:** Type "?" to view help suggestions.
 
 ## CLI ツール
 
@@ -132,7 +132,7 @@ Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
 
 # カスタマイズ
 
-There are many things you can do to customize VS Code. 
+There are many things you can do to customize VS Code.
 
 * テーマの変更
 * キーボードショートカットの変更
@@ -141,15 +141,15 @@ There are many things you can do to customize VS Code.
 * スニペットの作成 
 * 拡張機能のインストール
 
-Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
+Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview).
 
 ## テーマの変更
 
-Open the command palatte and type "themes". You can install more themes from the extension Marketplace. 
+Open the command palatte and type "themes". You can install more themes from the extension Marketplace.
 
 ![Preview themes](/media/PreviewThemes.gif)
 
-Additionally, you can install and change your file icon themes. 
+Additionally, you can install and change your file icon themes.
 
 ![File icon themes](/media/PreviewFileIconThemes.gif)
 
@@ -176,7 +176,7 @@ Open the command palatte and type "Keyboard Shortcuts." You can now add your own
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
-See more in the [Official Documentation](https://code.visualstudio.com/docs/customization/keybindings). 
+See more in the [Official Documentation](https://code.visualstudio.com/docs/customization/keybindings).
 
 ## Tune your settings
 
@@ -210,7 +210,7 @@ Open `settings.json`
 "editor.fontLigatures": true
 ```
 
-> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team. 
+> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
@@ -246,7 +246,7 @@ Open `settings.json`
 
 *Ignore files / folders*
 
-Removes these files / folders from your editor window. 
+Removes these files / folders from your editor window.
 
 ```json
 "files.exclude": {
@@ -255,7 +255,7 @@ Removes these files / folders from your editor window.
 }
 ```
 
-Remove these files / folders from search results. 
+Remove these files / folders from search results.
 
 ```json
 "search.exclude": {
@@ -401,7 +401,7 @@ Enter distraction free mode.
 
 ## Side by side editing
 
-> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
+> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser.
 
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
@@ -465,7 +465,7 @@ Navigate Forward.
 
 ## File associations
 
-Setup language associations for files that aren't detected accurately (i.e. many config files). 
+Setup language associations for files that aren't detected accurately (i.e. many config files).
 
 ```json
 "file.associations": {
@@ -475,7 +475,7 @@ Setup language associations for files that aren't detected accurately (i.e. many
 
 # 便利な編集機能
 
-Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor. 
+Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor.
 
 ## Multi cursor selection
 
@@ -621,7 +621,7 @@ Special bonus: The preview will now sync.
 
 # インテリセンス
 
-Anytime, try <kbd>ctrl+space</kbd> to trigger the suggest widget.
+いつでも、 <kbd>ctrl+space</kbd> でサジェストウィジェットの起動を試みることができます。
 
 ![インテリセンス](/media/intellisense.gif)
 
@@ -641,7 +641,7 @@ You can view available methods, parameter hints, short documentation, etc.
 
 ## Find all references
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu. 
+Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
 
 ![find all references](/media/find_all_references.gif)
 
@@ -698,11 +698,11 @@ Here is configuration to use es6.
 
 ## package.json
 
-See intellisense for your package.json file. 
+See intellisense for your package.json file.
 
 ![package json intellisense](/media/package_json_intellisense.gif)
 
-## Emmet syntax
+## Emmet 構文
 
 [Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
@@ -742,7 +742,7 @@ Click Git icon then select the file to diff.
 
 **Side by side**
 
-Default is side by side diff. 
+Default is side by side diff.
 
 ![git diff side by side](/media/git_side_by_side.png)
 
@@ -784,7 +784,7 @@ Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy 
 what git commands are running. This is helpful when learning git or debugging a difficult 
 source control issue.
 
-> Mac: <kbd>shift+cmd+u</kbd> 
+> Mac: <kbd>shift+cmd+u</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+u</kbd>
 
@@ -798,7 +798,7 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 
 ## Resolve merge conflicts
 
-During a merge click the git icon and make changes in the diff view. 
+During a merge click the git icon and make changes in the diff view.
 
 ![git icon](/media/git_icon.png)
 
