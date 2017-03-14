@@ -501,7 +501,7 @@ Add more cursors to current selection.
 
 ![行の結合](/media/JoinLines.gif)
 
-## Copy line up / down
+## 行コピー ( 上 / 下 )
 
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
@@ -509,7 +509,7 @@ Add more cursors to current selection.
 
 ![copy line down](/media/copy_line_down.gif)
 
-## Shrink / expand selection
+## 選択範囲の縮小と拡大
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
@@ -535,13 +535,13 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![navigate to line](/media/navigate_to_line.gif)
 
-## Undo cursor position
+## カーソル位置をひとつ前に戻す
 
 > Mac: <kbd>cmd+u</kbd>
 
 > Windows / Linux: <kbd>ctrl+u</kbd>
 
-![undo cursor position](/media/undo_cursor_position.gif)
+![カーソル位置をひとつ前に戻す](/media/undo_cursor_position.gif)
 
 ## Move line up and down
 
@@ -581,13 +581,13 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![code folding](/media/code_folding.gif)
 
-## Select current line
+## 現在行を選択
 
 > Mac: <kbd>cmd+i</kbd>
 
 > Windows / Linux: <kbd>ctrl+i</kbd>
 
-![select current line](/media/select_current_line.gif)
+![現在行を選択](/media/select_current_line.gif)
 
 ## Navigate to beginning and end of file
 
@@ -599,15 +599,15 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
-## Toggle README preview
+## トグル README プレビュー
 
-In a markdown file use 
+In a markdown file use
 
 > Mac: <kbd>shift+cmd+v</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+v</kbd>
 
-![toggle readme preview](/media/toggle_preview.gif)
+![トグル README プレビュー](/media/toggle_preview.gif)
 
 ## Side by Side Markdown Edit and Preview
 
