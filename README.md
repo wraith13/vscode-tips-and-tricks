@@ -192,19 +192,19 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "editor.formatOnPaste": true
 ```
 
-### Change the font size
+### フォントサイズの変更
 
 ```json
 "editor.fontSize": 18
 ```
 
-### Change the zoom level
+### ズームレベルの変更
 
 ```json
 "window.zoomLevel": 5
 ```
 
-### Font ligatures
+### フォント合字
 
 ```json
 "editor.fontLigatures": true
@@ -232,13 +232,13 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "editor.tabSize": 4
 ```
 
-### Spaces or tabs
+### 空白文字 or タブ文字
 
 ```json
 "editor.insertSpaces": true
 ```
 
-### Render whitespace
+### ホワイトスペースの表示
 
 ```json
 "editor.renderWhitespace": true
@@ -746,7 +746,7 @@ Default is side by side diff.
 
 ![git diff side by side](/media/git_side_by_side.png)
 
-## Inline view
+## インライン表示
 
 Toggle inline view by clicking more button in the top right.
 
@@ -754,13 +754,13 @@ Toggle inline view by clicking more button in the top right.
 
 ![git inline](/media/git_inline.png)
 
-## Branches
+## ブランチ
 
 Easily switch between branches via the status bar.
 
 ![switch branches](/media/switch_branches.gif)
 
-## Staging
+## ステージング
 
 ### Stage all
 
@@ -774,11 +774,11 @@ Stage a portion of a file by selecting that file (using the arrows) and then sta
 
 ![git stage selected](/media/git_stage_selected.gif)
 
-## Undo last commit
+## 前回のコミットを元に戻す
 
 ![undo last commit](/media/undo_last_commit.gif)
 
-## See Git output
+## Git 出力の表示
 
 Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy to see 
 what git commands are running. This is helpful when learning git or debugging a difficult 
