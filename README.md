@@ -25,8 +25,8 @@
 VS Code チームは最新の機能とバグ修正を確認する為にインサイダーバージョンを使っています。 あたなも[ここからダウンロード](https://code.visualstudio.com/insiders)して同じバージョンを使う事ができます。
 
 * アーリーアダプターの為に - インサイダーは最も直近のコード変更と時々壊れたビルドを手にすることになるでしょう。
-* 頻繁なビルド - 最新のバグ修正と機能を含む毎日の新しいビルド
-* Side-by-side インストール - Insiders installs next to the Stable build allowing you to use either independently.
+* 頻繁なビルド - 最新のバグ修正と機能を含む毎日の新しいビルド。
+* Side-by-side インストール - インサイダー版と安定版は互いに依存せずに利用可能です。
 
 ![side by side インストール](/media/side-by-side-install.png)
 
@@ -44,9 +44,9 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 あなたの現在のコンテキストで利用可能な全てのコマンドにアクセスできます。
 
-> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> or <kbd>f1</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> あるいは <kbd>f1</kbd>
 
-> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> or <kbd>f1</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> あるいは <kbd>f1</kbd>
 
 ![コマンド パレット](/media/OpenCommandPalatte.gif)
 
@@ -116,7 +116,7 @@ Workspace specific files are in `.vscode`. For example, `tasks.json` for the Tas
 
 Quickly jump to errors and warnings in the project. 
 
-Cycle through errors with <kbd>f8</kbd> or <kbd>shift</kbd>+<kbd>f8</kbd>
+Cycle through errors with <kbd>f8</kbd> あるいは <kbd>shift</kbd>+<kbd>f8</kbd>
 
 ![エラーと警告](/media/Errors_Warnings.gif)
 
@@ -230,7 +230,7 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "editor.tabSize": 4
 ```
 
-### 空白文字 or タブ文字
+### 空白文字およびタブ文字
 
 ```json
 "editor.insertSpaces": true
@@ -293,7 +293,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 ]
 ```
 
-or for a schema defined in your workspace
+あるいは for a schema defined in your workspace
 
 ```json
 "json.schemas": [
@@ -306,7 +306,7 @@ or for a schema defined in your workspace
 ]
 ```
 
-or a custom schema
+もしくは a custom schema
 
 ```json
 "json.schemas": [
@@ -399,7 +399,7 @@ Enter distraction free mode.
 
 ## Side by side editing
 
-> Mac: <kbd>cmd</kbd>+<kbd>\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser.
+> Mac: <kbd>cmd</kbd>+<kbd>\\</kbd> あるいは <kbd>cmd</kbd> then click a file from the file browser.
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>\\</kbd>
 
@@ -455,9 +455,9 @@ Navigate Forward.
 
 ## Navigate to a file
 
-> Mac: <kbd>cmd</kbd>+<kbd>e</kbd> or <kbd>cmd</kbd>+<kbd>p</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>e</kbd> あるいは <kbd>cmd</kbd>+<kbd>p</kbd>
 
-> Windows / Linux: <kbd>ctrl</kbd>+<kbd>e</kbd> or <kbd>ctrl</kbd>+<kbd>p</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>e</kbd> あるいは <kbd>ctrl</kbd>+<kbd>p</kbd>
 
 ![navigate to file](/media/navigate_to_file.gif)
 
@@ -477,11 +477,11 @@ Here are a selection of common features for editing code. If the keyboard shortc
 
 ## Multi cursor selection
 
-> Mac: <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>up</kbd> あるいは <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>down</kbd>
 
-> Windows: <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>up</kbd> or <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>down</kbd>
+> Windows: <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>up</kbd> あるいは <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>down</kbd>
 
-> Linux: <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> or <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
+> Linux: <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> あるいは <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
@@ -501,9 +501,9 @@ Add more cursors to current selection.
 
 ## 行コピー ( 上 / 下 )
 
-> Mac: <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> あるいは <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
 
-> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>down</kbd> or <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>up</kbd>
+> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>down</kbd> あるいは <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
@@ -511,9 +511,9 @@ Add more cursors to current selection.
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
-> Mac: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>left</kbd> or <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>right</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>left</kbd> あるいは <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>right</kbd>
 
-> Windows / Linux: <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>left</kbd> or <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>right</kbd>
+> Windows / Linux: <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>left</kbd> あるいは <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>right</kbd>
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
@@ -527,7 +527,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Navigate to a specific line
 
-> Mac: <kbd>ctrl</kbd>+<kbd>g</kbd> or <kbd>cmd</kbd>+<kbd>p</kbd> <kbd>:</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>g</kbd> あるいは <kbd>cmd</kbd>+<kbd>p</kbd> <kbd>:</kbd>
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>g</kbd>
 
@@ -543,9 +543,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ## Move line up and down
 
-> Mac: <kbd>opt</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>up</kbd> あるいは <kbd>opt</kbd>+<kbd>down</kbd>
 
-> Windows / Linux: <kbd>alt</kbd>+<kbd>up</kbd> or <kbd>alt</kbd>+<kbd>down</kbd>
+> Windows / Linux: <kbd>alt</kbd>+<kbd>up</kbd> あるいは <kbd>alt</kbd>+<kbd>down</kbd>
 
 ![move line up and down](/media/move_line.gif)
 
