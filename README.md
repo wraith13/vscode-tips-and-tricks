@@ -70,17 +70,15 @@ All of the commands are in the command palette with the associated key binding (
 
 ## CLI ツール
 
-> Linux: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_linux).
+> Linux: [ここ](http://code.visualstudio.com/docs/editor/setup#_linux)の指示に従ってください。
 
-> Windows: Follow instructions [here](http://code.visualstudio.com/docs/editor/setup#_windows).
+> Windows: [ここ](http://code.visualstudio.com/docs/editor/setup#_windows)の指示に従ってください。
 
-> Mac: see below.
+> Mac: 下記を参照してください。
 
-Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
-to execute "Shell Command: Install 'code' command in PATH".
+コマンド パレットを開いて(<kbd>F1</kbd>) `shell command` とタイプし <kbd>enter</kbd> を叩いて `Shell Command: Install 'code' command in PATH` を実行します。
 
 ![shell command](/media/setup_shell-command.png)
-
 
 ```bash
 # カレントディレクトリで code を開く
@@ -112,21 +110,21 @@ Workspace specific files are in `.vscode`. For example, `tasks.json` for the Tas
 
 ### エラーと警告
 
-> Mac: <kbd>shift+cmd+m</kbd>
+> Mac: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>m</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+m</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd>
 
 Quickly jump to errors and warnings in the project. 
 
-Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+Cycle through errors with <kbd>f8</kbd> or <kbd>shift</kbd>+<kbd>f8</kbd>
 
 ![エラーと警告](/media/Errors_Warnings.gif)
 
 ### 言語モードの変更
 
-> Mac: <kbd>cmd+k m</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>k</kbd> <kbd>m</kbd>
 
-> Windows / Linux: <kbd>ctrl+k m</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>m</kbd>
 
 ![構文強調の変更](/media/change_syntax.gif)
 
@@ -341,7 +339,7 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 ## 拡張機能のインストール
 
-Click the extension activity bar button. You can search via the search bar or click the more button to filter and sort by install count.
+アクティビティバーの拡張機能ボタンをクリックし、検索バーからあるいはその他ボタンをクリックしてフィルターしたりインストール数順で並べ替えたりして検索機能を探すことができます。
 
 ![拡張機能のインストール](/media/InstallExtensions.gif)
 
@@ -369,13 +367,13 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 ## Integrated terminal
 
-> Windows / Linux / Mac: <kbd>ctrl+`</kbd>
+> Windows / Linux / Mac: <kbd>ctrl</kbd>+<kbd>`</kbd>
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
 ## 自動保存
 
-Open `settings.json` with <kbd>cmd+,</kbd>
+Open `settings.json` with <kbd>cmd</kbd>+<kbd>,</kbd>
 
 ```json
 "files.autoSave": "afterDelay"
@@ -383,83 +381,83 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 
 ## Toggle sidebar
 
-> Mac: <kbd>cmd+b</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>b</kbd>
 
-> Windows / Linux: <kbd>ctrl+b</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>b</kbd>
 
 ![toggle side bar](/media/toggle_side_bar.gif)
 
 ## Zen Mode
 
-> Mac: <kbd>cmd+k z</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>k</kbd> <kbd>z</kbd>
 
-> Windows / Linux: <kbd>ctrl+k z</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>z</kbd>
 
 ![zen mode](/media/zen_mode.gif)
 
-Enter distraction free mode. 
+Enter distraction free mode.
 
 ## Side by side editing
 
-> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser.
+> Mac: <kbd>cmd</kbd>+<kbd>\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser.
 
-> Windows / Linux: <kbd>ctrl+\\</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>\\</kbd>
 
-> Linux: <kbd>ctrl+2</kbd>
+> Linux: <kbd>ctrl</kbd>+<kbd>2</kbd>
 
 ![split editors](/media/split_editor.gif)
 
 ## エディタ間の切り替え
 
-> Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>1</kbd>, <kbd>cmd</kbd>+<kbd>2</kbd>, <kbd>cmd</kbd>+<kbd>3</kbd>
 
-> Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>1</kbd>, <kbd>ctrl</kbd>+<kbd>2</kbd>, <kbd>ctrl</kbd>+<kbd>3</kbd>
 
 ![navigate editors](/media/navigate_editors.gif)
 
 ## エクスプローラー ウィンドウへの移動
 
-> Mac: <kbd>cmd+shift+e</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+e</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>
 
 ## ファイルのオープンと作成
 
-> Mac: <kbd>cmd+click</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>click</kbd>
 
-> Windows / Linux: <kbd>ctrl+click</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>click</kbd>
 
 ![create and open file](/media/create_open_file.gif)
 
 ## Close the currently opened folder
 
-> Mac: <kbd>cmd+w</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>w</kbd>
 
-> Linux: <kbd>ctrl+k f</kbd>
+> Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>f</kbd>
 
 ## 履歴
 
-Navigate entire history with <kbd>ctrl+tab</kbd>
+Navigate entire history with <kbd>ctrl</kbd>+<kbd>tab</kbd>
 
 Navigate back.
 
-> Mac: <kbd>ctrl+-</kdbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>-</kdbd>
 
-> Windows / Linux: <kbd>alt+left</kbd>
+> Windows / Linux: <kbd>alt</kbd>+<kbd>left</kbd>
 
 Navigate Forward.
 
-> Mac: <kbd>ctrl+shift+-</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>-</kbd>
 
-> Windows / Linux: <kbd>alt+right</kbd>
+> Windows / Linux: <kbd>alt</kbd>+<kbd>right</kbd>
 
 ![navigate history](/media/navigate_history.gif)
 
 ## Navigate to a file
 
-> Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>e</kbd> or <kbd>cmd</kbd>+<kbd>p</kbd>
 
-> Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>e</kbd> or <kbd>ctrl</kbd>+<kbd>p</kbd>
 
 ![navigate to file](/media/navigate_to_file.gif)
 
@@ -479,11 +477,11 @@ Here are a selection of common features for editing code. If the keyboard shortc
 
 ## Multi cursor selection
 
-> Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>cmd</kbd>+<kbd>down</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>up</kbd> or <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>down</kbd>
 
-> Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
+> Linux: <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> or <kbd>alt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
 
 ![multi cursor](/media/multi_cursor.gif)
 
@@ -495,7 +493,7 @@ Add more cursors to current selection.
 
 ## 行の結合
 
-> Mac: <kbd>ctrl+j</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>j</kbd>
 
 > Windows / Linux: デフォルトでは割り当てられていません。<kbd>ファイル</kbd>→<kbd>基本設定</kbd>→<kbd>キーボード ショートカット</kbd> を開いて `editor.action.joinLines` にあなたの好みでショートカットを割り当ててください。
 
@@ -503,9 +501,9 @@ Add more cursors to current selection.
 
 ## 行コピー ( 上 / 下 )
 
-> Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>shift</kbd>+<kbd>down</kbd>
 
-> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>down</kbd> or <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
 
@@ -513,49 +511,49 @@ Add more cursors to current selection.
 
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
-> Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>left</kbd> or <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>right</kbd>
 
-> Windows / Linux: <kbd>shift+alt+left</kbd> or <kbd>shift+alt+right</kbd>
+> Windows / Linux: <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>left</kbd> or <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>right</kbd>
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
 
 ## シンボル検索
 
-> Mac: <kbd>cmd+shift+o</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>o</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+o</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>o</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
 ## Navigate to a specific line
 
-> Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
+> Mac: <kbd>ctrl</kbd>+<kbd>g</kbd> or <kbd>cmd</kbd>+<kbd>p</kbd> <kbd>:</kbd>
 
-> Windows / Linux: <kbd>ctrl+g</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>g</kbd>
 
 ![navigate to line](/media/navigate_to_line.gif)
 
 ## カーソル位置をひとつ前に戻す
 
-> Mac: <kbd>cmd+u</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>u</kbd>
 
-> Windows / Linux: <kbd>ctrl+u</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>u</kbd>
 
 ![カーソル位置をひとつ前に戻す](/media/undo_cursor_position.gif)
 
 ## Move line up and down
 
-> Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
+> Mac: <kbd>opt</kbd>+<kbd>up</kbd> or <kbd>opt</kbd>+<kbd>down</kbd>
 
-> Windows / Linux: <kbd>alt+up</kbd> or <kbd>alt+down</kbd>
+> Windows / Linux: <kbd>alt</kbd>+<kbd>up</kbd> or <kbd>alt</kbd>+<kbd>down</kbd>
 
 ![move line up and down](/media/move_line.gif)
 
 ## Trim trailing whitespace
 
-> Mac: <kbd>cmd+shift+x</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>x</kbd>
 
-> Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>ctrl</kbd>+<kbd>x</kbd>
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
@@ -563,39 +561,39 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ### Currently selected source code
 
-> Mac: <kbd>cmd+k, cmd+f</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>k</kbd> <kbd>cmd</kbd>+<kbd>f</kbd>
 
-> Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>ctrl</kbd>+<kbd>f</kbd>
 
 ### Whole document format
 
-> Windows / Linux: <kbd>shift+alt+f</kbd>
+> Windows / Linux: <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>f</kbd>
 
 ![code formatting](/media/code_formatting.gif)
 
 ## Code folding
 
-> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
+> Mac: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>\[</kbd> and <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>\]</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\[</kbd> and <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\]</kbd>
 
 ![code folding](/media/code_folding.gif)
 
 ## 現在行を選択
 
-> Mac: <kbd>cmd+i</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>i</kbd>
 
-> Windows / Linux: <kbd>ctrl+i</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>i</kbd>
 
 ![現在行を選択](/media/select_current_line.gif)
 
 ## Navigate to beginning and end of file
 
-> Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
+> Mac: <kbd>cmd</kbd>+<kbd>up</kbd> and <kbd>cmd</kbd>+<kbd>down</kbd>
 
-> Windows: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+> Windows: <kbd>ctrl</kbd>+<kbd>up</kbd> and <kbd>ctrl</kbd>+<kbd>down</kbd>
 
-> Linux: <kbd>ctrl+home</kbd> and <kbd>ctrl+end</kbd>
+> Linux: <kbd>ctrl</kbd>+<kbd>home</kbd> and <kbd>ctrl</kbd>+<kbd>end</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
@@ -603,9 +601,9 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 In a markdown file use
 
-> Mac: <kbd>shift+cmd+v</kbd>
+> Mac: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>v</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+v</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>v</kbd>
 
 ![トグル README プレビュー](/media/toggle_preview.gif)
 
@@ -613,15 +611,15 @@ In a markdown file use
 
 In a markdown file use
 
-> Linux: <kbd>ctrl+k v</kbd>
+> Linux: <kbd>ctrl</kbd>+<kbd>k</kbd> <kbd>v</kbd>
 
-Special bonus: The preview will now sync. 
+Special bonus: The preview will now sync.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
 # インテリセンス
 
-いつでも、 <kbd>ctrl+space</kbd> でサジェストウィジェットの起動を試みることができます。
+いつでも、 <kbd>ctrl</kbd>+<kbd>space</kbd> でサジェストウィジェットの起動を試みることができます。
 
 ![インテリセンス](/media/intellisense.gif)
 
@@ -629,7 +627,7 @@ You can view available methods, parameter hints, short documentation, etc.
 
 ## 定義をここに表示
 
-シンボルを選択肢して <kbd>alt+f12</kbd> を押します。あるいは、コンテキストメニューを使用します。
+シンボルを選択肢して <kbd>alt</kbd>+<kbd>f12</kbd> を押します。あるいは、コンテキストメニューを使用します。
 
 ![定義をここに表示](/media/peek.gif)
 
@@ -641,7 +639,7 @@ You can view available methods, parameter hints, short documentation, etc.
 
 ## Find all references
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>shift</kbd>+<kbd>f12</kbd>. Alternatively, you can use the context menu.
 
 ![find all references](/media/find_all_references.gif)
 
@@ -784,9 +782,9 @@ Sometimes I want to see what my tool is doing. Visual Studio Code makes it easy 
 what git commands are running. This is helpful when learning git or debugging a difficult 
 source control issue.
 
-> Mac: <kbd>shift+cmd+u</kbd>
+> Mac: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>u</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+u</kbd>
+> Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>u</kbd>
 
 to run `toggleOutput`. Select Git in the dropdown.
 
