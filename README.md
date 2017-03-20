@@ -52,9 +52,9 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ## キーボードショートカットの参照
 
-All of the commands are in the command palette with the associated key binding (if it exists). If you forget what the key binding is use the command palette to help you out. 
+全てのコマンドは割り当てられたキーボードショートカットが存在する場合、ともにコマンドパレット上に表示されます。もしもあなたがキーボードショートカットを忘れてしまった場合、コマンドパレットがあなたの助けになるでしょう。
 
-![keyboard references](/media/keyboard-references.png)
+![キーボードショートカットの参照](/media/keyboard-references.png)
 
 ## クイック オープン
 
@@ -64,9 +64,9 @@ All of the commands are in the command palette with the associated key binding (
 
 > Windows / Linux: <kbd>ctrl+p</kbd>
 
-![Quick Open](/media/QuickOpen.gif)
+![クイック オープン](/media/QuickOpen.gif)
 
-> **Tip:** Type "?" to view help suggestions.
+> **Tip:** <kbd>?<kbd> とタイプするとヘルプが提示されます。
 
 ## CLI ツール
 
@@ -100,7 +100,7 @@ code --help
 code --disable-extensions .
 ```
 
-![all cli commands](/media/vscode-cli-commands.png)
+![全ての CLI コマンド](/media/vscode-cli-commands.png)
 
 ## .vscode フォルダ
 
@@ -139,7 +139,7 @@ There are many things you can do to customize VS Code.
 * スニペットの作成 
 * 拡張機能のインストール
 
-Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview).
+完全な[ドキュメント](http://code.visualstudio.com/docs/customization/overview)に目を通そう。
 
 ## テーマの変更
 
@@ -172,7 +172,7 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 
 Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right.
 
-![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
+![キーボードショートカットのカスタマイズ](/media/KeyboardShortcuts.gif)
 
 See more in the [Official Documentation](https://code.visualstudio.com/docs/customization/keybindings).
 
@@ -210,7 +210,7 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 
 > **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
 
-![font ligatures](/media/font-ligatures-annotated.png)
+![フォント合字](/media/font-ligatures-annotated.png)
 
 ### 自動保存
 
@@ -347,7 +347,7 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 
 Click the extension activity bar button. Then click "Show Recommended Extensions" in the more button menu. 
 
-![show recommended extensions](/media/ShowRecommendedExtensions.gif)
+![オススメの拡張機能を表示](/media/ShowRecommendedExtensions.gif)
 
 ## Creating my own extension
 
@@ -365,27 +365,29 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 # ファイルとフォルダの管理
 
-## Integrated terminal
+## 統合ターミナル
 
 > Windows / Linux / Mac: <kbd>ctrl</kbd>+<kbd>`</kbd>
 
-![Integrated terminal](/media/integrated_terminal.png)
+![統合ターミナル](/media/integrated_terminal.png)
 
 ## 自動保存
 
-Open `settings.json` with <kbd>cmd</kbd>+<kbd>,</kbd>
+<kbd>cmd</kbd>+<kbd>,</kbd> で `settings.json` を開きます。
+
+> 👻  Windows および Linux の場合は <kbd>ファイル</kbd> -> <kbd>基本設定</kbd> -> <kbd>設定</kbd>
 
 ```json
 "files.autoSave": "afterDelay"
 ```
 
-## Toggle sidebar
+## サイドバーの切り替え
 
 > Mac: <kbd>cmd</kbd>+<kbd>b</kbd>
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>b</kbd>
 
-![toggle side bar](/media/toggle_side_bar.gif)
+![サイドバーの切り替え](/media/toggle_side_bar.gif)
 
 ## Zen Mode
 
@@ -427,9 +429,9 @@ Enter distraction free mode.
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>click</kbd>
 
-![create and open file](/media/create_open_file.gif)
+![ファイルのオープンと作成](/media/create_open_file.gif)
 
-## Close the currently opened folder
+## カレントの開いているフォルダーを閉じる
 
 > Mac: <kbd>cmd</kbd>+<kbd>w</kbd>
 
@@ -505,7 +507,7 @@ Add more cursors to current selection.
 
 > Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>down</kbd> あるいは <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>up</kbd>
 
-![copy line down](/media/copy_line_down.gif)
+![行コピー ( 下 )](/media/copy_line_down.gif)
 
 ## 選択範囲の縮小と拡大
 
@@ -515,7 +517,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Windows / Linux: <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>left</kbd> あるいは <kbd>shift</kbd>+<kbd>alt</kbd>+<kbd>right</kbd>
 
-![shrink expand selection](/media/shrink_expand_selection.gif)
+![選択範囲の縮小と拡大](/media/shrink_expand_selection.gif)
 
 ## シンボル検索
 
@@ -523,7 +525,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>o</kbd>
 
-![Find by symbol](/media/find_by_symbol.gif)
+![シンボル検索](/media/find_by_symbol.gif)
 
 ## Navigate to a specific line
 
@@ -571,13 +573,13 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![code formatting](/media/code_formatting.gif)
 
-## Code folding
+## コードの折りたたみ
 
 > Mac: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>\[</kbd> and <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>\]</kbd>
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\[</kbd> and <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>\]</kbd>
 
-![code folding](/media/code_folding.gif)
+![コードの折りたたみ](/media/code_folding.gif)
 
 ## 現在行を選択
 
@@ -597,7 +599,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
 
-## トグル README プレビュー
+## README プレビューの切り替え
 
 In a markdown file use
 
@@ -605,7 +607,7 @@ In a markdown file use
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>v</kbd>
 
-![トグル README プレビュー](/media/toggle_preview.gif)
+![README プレビューの切り替え](/media/toggle_preview.gif)
 
 ## Side by Side Markdown Edit and Preview
 
@@ -702,9 +704,9 @@ See intellisense for your package.json file.
 
 ## Emmet 構文
 
-[Support for Emmet syntax](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).
+[Emmet 構文のサポート](http://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
-![emmet syntax](/media/emmet_syntax.gif)
+![Emmet 構文](/media/emmet_syntax.gif)
 
 # スニペット
 
@@ -736,7 +738,7 @@ See more details in [documentation](http://code.visualstudio.com/docs/customizat
 
 Click Git icon then select the file to diff.
 
-![git icon](/media/git_icon.png)
+![Git アイコン](/media/git_icon.png)
 
 ## Side by side
 
@@ -756,7 +758,7 @@ Toggle inline view by clicking more button in the top right.
 
 Easily switch between branches via the status bar.
 
-![switch branches](/media/switch_branches.gif)
+![ブランチの切り替え](/media/switch_branches.gif)
 
 ## ステージング
 
@@ -774,7 +776,7 @@ Stage a portion of a file by selecting that file (using the arrows) and then sta
 
 ## 前回のコミットを元に戻す
 
-![undo last commit](/media/undo_last_commit.gif)
+![前回のコミットを元に戻す](/media/undo_last_commit.gif)
 
 ## Git 出力の表示
 
@@ -798,7 +800,7 @@ View diff decorations in editor. See [documentation](http://code.visualstudio.co
 
 During a merge click the git icon and make changes in the diff view.
 
-![git icon](/media/git_icon.png)
+![Git アイコン](/media/git_icon.png)
 
 ## Setup VS Code as default merge tool
 
@@ -869,7 +871,7 @@ for getting things to work properly.
 <kbd>f1</kbd>, run the command "Run Task", and select the task you want to run. Terminate the running
 task by running the command "Terminate Running Task"
 
-![task runner](/media/task_runner.gif)
+![タスク ランナー](/media/task_runner.gif)
 
 
 ## その他のリソース
