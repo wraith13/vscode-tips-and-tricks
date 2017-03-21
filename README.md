@@ -104,7 +104,7 @@ code --disable-extensions .
 
 ## .vscode フォルダ
 
-Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
+`.vscode` フォルダにワークスペース固有のファイルがあります。例を挙げると、タスク ランナーの為に `tasks.json` が、そしてデバッガの為に `launch.json` があります。
 
 ## ステータス バー の装飾
 
@@ -114,9 +114,9 @@ Workspace specific files are in `.vscode`. For example, `tasks.json` for the Tas
 
 > Windows / Linux: <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>m</kbd>
 
-Quickly jump to errors and warnings in the project. 
+プロジェクトのエラーと警告に素早くジャンプできます。
 
-Cycle through errors with <kbd>f8</kbd> あるいは <kbd>shift</kbd>+<kbd>f8</kbd>
+<kbd>f8</kbd> あるいは <kbd>shift</kbd>+<kbd>f8</kbd> でエラー箇所を巡回できます。
 
 ![エラーと警告](/media/Errors_Warnings.gif)
 
@@ -130,7 +130,7 @@ Cycle through errors with <kbd>f8</kbd> あるいは <kbd>shift</kbd>+<kbd>f8</k
 
 # カスタマイズ
 
-There are many things you can do to customize VS Code.
+あなたは沢山の点で VS Code をカスタマイズできます。
 
 * テーマの変更
 * キーボードショートカットの変更
