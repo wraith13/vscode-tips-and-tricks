@@ -66,7 +66,7 @@ VS Code チームは最新の機能とバグ修正を確認する為にインサ
 
 ![クイック オープン](/media/QuickOpen.gif)
 
-> **Tip:** <kbd>?<kbd> とタイプするとヘルプが提示されます。
+> **Tip:** <kbd>?</kbd> とタイプするとヘルプが提示されます。
 
 ## CLI ツール
 
@@ -143,13 +143,15 @@ code --disable-extensions .
 
 ## テーマの変更
 
-Open the command palatte and type "themes". You can install more themes from the extension Marketplace.
+コマンドパレットを開いて `themes` とタイプし、あなたは拡張マーケットプレイスからもっとテーマをインストールできます。
 
-![Preview themes](/media/PreviewThemes.gif)
+> 👻 原文が明らかに言葉足らずなものをそのまま直訳しました。が、実際にそうしてれみれば、まぁ、なんとなくわかるかとは思います。
 
-Additionally, you can install and change your file icon themes.
+![テーマのプレビュー](/media/PreviewThemes.gif)
 
-![File icon themes](/media/PreviewFileIconThemes.gif)
+加えて、あなたはファイルアイコンテーマのインストールと変更ができます。
+
+![ファイルアイコンテーマ](/media/PreviewFileIconThemes.gif)
 
 ## キーボードショートカットの変更
 
@@ -157,11 +159,11 @@ Additionally, you can install and change your file icon themes.
 
 あなたの環境([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144))の為のキーボードショートカット一覧をダウンロードしよう。
 
-![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
+![キーボードリファレンスシート](/media/KeyboardReferenceSheet.png)
 
 ### キーマップ
 
-Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to Preferences -> Keymap Extensions to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
+あなたは他のエディターのキーボードショートカットに慣れていますか？ You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to Preferences -> Keymap Extensions to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
