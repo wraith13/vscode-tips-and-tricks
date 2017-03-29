@@ -163,7 +163,7 @@ code --disable-extensions .
 
 ### キーマップ
 
-あなたは他のエディターのキーボードショートカットに慣れていますか？ You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to Preferences -> Keymap Extensions to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
+あなたは他のエディターのキーボードショートカットに慣れていますか？ あなたの好きなエディターからキーボードショートカットをもたらすキーマップ拡張を VS Code にインストールすることが出来ます。 Go to <kbd>基本設定</kbd> -> <kbd>キーマップ拡張機能</kbd> to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 - [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
