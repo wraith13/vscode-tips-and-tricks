@@ -375,6 +375,11 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 ![統合ターミナル](/media/integrated_terminal.png)
 
+Further reading:
+
+* [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
+* [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
+
 ## 自動保存
 
 <kbd>cmd</kbd>+<kbd>,</kbd> で `settings.json` を開きます。
