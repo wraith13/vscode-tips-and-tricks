@@ -172,13 +172,15 @@ code --disable-extensions .
 
 ### キーボードショートカットのカスタマイズ
 
-Open the command palatte and type "Keyboard Shortcuts." You can now add your own keybindings in the file on the right.
+コマンドパレットを開いて `Keyboard Shortcuts` とタイプします。あたなは望む通りにこのファイルに自分のキーバインディングを追加できます。
+
+> 👻 単に `Keyboard Shortcuts` と入力してそのまま default で選択されている項目( `Help: Keyboard Shortcuts Reference` )を実行するとキーボードリファレンスシート(pdf)がWebブラウザで表示されます。`Preference: Open Keyboard Shortcuts` のほうを選択してください。
 
 ![キーボードショートカットのカスタマイズ](/media/KeyboardShortcuts.gif)
 
-See more in the [Official Documentation](https://code.visualstudio.com/docs/customization/keybindings).
+詳しくは[公式ドキュメント](https://code.visualstudio.com/docs/customization/keybindings)を参照してください。
 
-## Tune your settings
+## 設定の調整
 
 `settings.json` を開きます。
 
@@ -186,7 +188,7 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 
 > Windows / Linux: <kbd>ファイル</kbd> -> <kbd>基本設定</kbd> -> <kbd>設定</kbd>
 
-### Format on paste
+### ペースト時フォーマット
 
 ```json
 "editor.formatOnPaste": true
@@ -210,7 +212,7 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "editor.fontLigatures": true
 ```
 
-> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
+> **Tip:** 合字に対応したフォントをインストールする必要があります。 [FiraCode](https://github.com/tonsky/FiraCode) は VS Code チーム内で有名なフォントです。
 
 ![フォント合字](/media/font-ligatures-annotated.png)
 
@@ -220,13 +222,13 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "files.autoSave": true
 ```
 
-### Format on save
+### 保存時フォーマット
 
 ```json
 "editor.formatOnSave": true,
 ```
 
-### Change the size of tab characters
+### タブ文字のサイズ変更
 
 ```json
 "editor.tabSize": 4
@@ -244,9 +246,9 @@ See more in the [Official Documentation](https://code.visualstudio.com/docs/cust
 "editor.renderWhitespace": true
 ```
 
-### Ignore files / folders
+### 無視するファイル/フォルダ
 
-Removes these files / folders from your editor window.
+エディターウィンドウからこれらのファイル/フォルダを除去します。
 
 ```json
 "files.exclude": {
@@ -255,7 +257,7 @@ Removes these files / folders from your editor window.
 }
 ```
 
-Remove these files / folders from search results.
+検索結果からこれらのファイル/フォルダを除去します。
 
 ```json
 "search.exclude": {
