@@ -266,9 +266,9 @@ code --disable-extensions .
 }
 ```
 
-And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
+[他](http://code.visualstudio.com/docs/customization/userandworkspace)にもいろいろあります。
 
-## Language specific settings
+## 特定の言語での設定
 
 For those settings you only want for specific languages.
 
